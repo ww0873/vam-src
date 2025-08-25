@@ -1,0 +1,23 @@
+{ 
+   "licenseType" : "CC BY", 
+   "creatorName" : "cjyhot", 
+   "packageName" : "FindPlugins", 
+   "standardReferenceVersionOption" : "Latest", 
+   "scriptReferenceVersionOption" : "Exact", 
+   "description" : "a simple tool use to find plugins in scene and help to open UI.", 
+   "credits" : "", 
+   "instructions" : "", 
+   "promotionalLink" : "", 
+   "programVersion" : "1.22.0.3", 
+   "contentList" : [ 
+      "Custom/Scripts/cjyhot/FindPlugins.cs"
+   ], 
+   "dependencies" : { 
+   }, 
+   "customOptions" : { 
+      "preloadMorphs" : "false"
+   }, 
+   "hadReferenceIssues" : "false", 
+   "referenceIssues" : [ 
+   ]
+}

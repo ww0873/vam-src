@@ -590,6 +590,7 @@ public class MVRPluginManager : JSONStorable
 	// Token: 0x06005AF1 RID: 23281 RVA: 0x00215EB4 File Offset: 0x002142B4
 	protected void SyncPluginUrlInternal(MVRPlugin mvrp, bool isFromConfirmDenyResponse)
 	{
+        // 检查，是否，开启脚本
 		if (UserPreferences.singleton == null || UserPreferences.singleton.enablePlugins)
 		{
 			if (this.domain == null)

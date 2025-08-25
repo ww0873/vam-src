@@ -1,0 +1,650 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AcquireAllAvailableBroadcastingPlugins	.\Keybindings\Keybindings.cs	/^    private void AcquireAllAvailableBroadcastingPlugins()$/;"	m	class:Keybindings	file:
+AcquireBuiltInCommands	.\Keybindings\Keybindings.cs	/^    private void AcquireBuiltInCommands()$/;"	m	class:Keybindings	file:
+ActionCommandInvoker	.\Keybindings\CommandInvokers\ActionCommandInvoker.cs	/^    public ActionCommandInvoker(JSONStorable storable, string ns, string localName, Action fn)$/;"	m	class:ActionCommandInvoker
+ActionCommandInvoker	.\Keybindings\CommandInvokers\ActionCommandInvoker.cs	/^public class ActionCommandInvoker : CommandInvokerBase, IActionCommandInvoker$/;"	c
+Add	.\Keybindings\RemoteCommandsManager.cs	/^    public void Add(IActionCommandInvoker invoker)$/;"	m	class:RemoteCommandsManager
+Add	.\Keybindings\RemoteCommandsManager.cs	/^    public void Add(IAnalogCommandInvoker invoker)$/;"	m	class:RemoteCommandsManager
+Add	.\ScenePluginTriggers\PluginTriggerBinding.cs	/^    public void Add(JSONStorableAction value)$/;"	m	class:PluginTriggerActionBinding
+Add	.\ScenePluginTriggers\PluginTriggerBinding.cs	/^    public void Add(JSONStorableBool param)$/;"	m	class:PluginTriggerBoolBinding
+AddDiscreteTrigger	.\CustomCommands\CustomCommandsRepository.cs	/^        ICustomCommand AddDiscreteTrigger();$/;"	m	interface:CustomActions.ICustomCommandsRepository
+AddDiscreteTrigger	.\CustomCommands\CustomCommandsRepository.cs	/^        public ICustomCommand AddDiscreteTrigger()$/;"	m	class:CustomActions.CustomCommandsRepository
+AddEditRow	.\CustomCommands\UI\CustomCommandsScreen.cs	/^    private void AddEditRow(ICustomCommand action)$/;"	m	class:CustomCommandsScreen	file:
+AddEditRow	.\Keybindings\UI\KeybindingsScreen.cs	/^    private void AddEditRow(List<CommandBindingRow> rows, ICommandInvoker commandInvoker)$/;"	m	class:KeybindingsScreen	file:
+AddGroupRow	.\Keybindings\UI\KeybindingsScreen.cs	/^    private void AddGroupRow(List<CommandBindingRow> rows, string groupName)$/;"	m	class:KeybindingsScreen	file:
+AddPlugin	.\AddPlugin\KeybindingsExtensions_AddPlugin.cs	/^    private PluginReference AddPlugin()$/;"	m	class:KeybindingsExtensions_AddPlugin	file:
+AnalogHandler	.\Keybindings\AnalogHandler.cs	/^    public AnalogHandler(RemoteCommandsManager remoteCommandsManager, AnalogMapManager analogMapManager, IKeybindingsSettings settings)$/;"	m	class:AnalogHandler
+AnalogHandler	.\Keybindings\AnalogHandler.cs	/^public class AnalogHandler$/;"	c
+AnalogMap	.\Keybindings\AnalogMap.cs	/^    public AnalogMap()$/;"	m	class:AnalogMap
+AnalogMap	.\Keybindings\AnalogMap.cs	/^    public AnalogMap(KeyChord chord, string axisName, bool reversed, string commandName, int slot = 0)$/;"	m	class:AnalogMap
+AnalogMap	.\Keybindings\AnalogMap.cs	/^    public AnalogMap(KeyChord leftChord, KeyChord rightChord, string commandName, int slot = 0)$/;"	m	class:AnalogMap
+AnalogMap	.\Keybindings\AnalogMap.cs	/^public class AnalogMap :  IMap$/;"	c
+AnalogMapManager	.\Keybindings\AnalogMapManager.cs	/^public class AnalogMapManager : IAnalogMapManager$/;"	c
+Append	.\Keybindings\Overlays\KeybindingsOverlay.cs	/^    public void Append(string value)$/;"	m	class:KeybindingsOverlay
+AutoClearCoroutine	.\Keybindings\Overlays\KeybindingsOverlay.cs	/^    private IEnumerator AutoClearCoroutine()$/;"	m	class:KeybindingsOverlay	file:
+Awake	.\CustomCommands\UI\CustomCommandsScreen.cs	/^    public void Awake()$/;"	m	class:CustomCommandsScreen
+CameraDollyZoom	.\Keybindings\SuperControllerExtensions.cs	/^    public static void CameraDollyZoom(this SuperController sc, float val)$/;"	m	class:SuperControllerExtensions
+CameraOrbitX	.\Keybindings\SuperControllerExtensions.cs	/^    public static void CameraOrbitX(this SuperController sc, float val)$/;"	m	class:SuperControllerExtensions
+CameraOrbitY	.\Keybindings\SuperControllerExtensions.cs	/^    public static void CameraOrbitY(this SuperController sc, float val)$/;"	m	class:SuperControllerExtensions
+CameraPan	.\Keybindings\SuperControllerExtensions.cs	/^    public static void CameraPan(this SuperController sc, float val, Vector3 direction)$/;"	m	class:SuperControllerExtensions
+CheckReleasers	.\Keybindings\NormalModeHandler.cs	/^    private void CheckReleasers()$/;"	m	class:NormalModeHandler	file:
+Clear	.\AddPlugin\PluginReference.cs	/^    public void Clear()$/;"	m	class:PluginReference
+Clear	.\Keybindings\AnalogMapManager.cs	/^    public void Clear()$/;"	m	class:AnalogMapManager
+Clear	.\Keybindings\AnalogMapManager.cs	/^    void Clear();$/;"	m	interface:IAnalogMapManager
+Clear	.\Keybindings\FuzzyFinder.cs	/^    public void Clear()$/;"	m	class:FuzzyFinder
+Clear	.\Keybindings\KeyMapManager.cs	/^    public void Clear()$/;"	m	class:KeyMapManager
+Clear	.\Keybindings\SelectionHistoryManager.cs	/^    public void Clear(Atom atom)$/;"	m	class:SelectionHistoryManager
+Clear	.\Keybindings\SelectionHistoryManager.cs	/^    public void Clear(JSONStorable storable)$/;"	m	class:SelectionHistoryManager
+ClearRows	.\CustomCommands\UI\CustomCommandsScreen.cs	/^    private void ClearRows()$/;"	m	class:CustomCommandsScreen	file:
+ClearRows	.\Keybindings\UI\KeybindingsScreen.cs	/^    private void ClearRows()$/;"	m	class:KeybindingsScreen	file:
+CloneCurrentAtom	.\Keybindings\GlobalCommands.cs	/^    private static IEnumerator CloneCurrentAtom()$/;"	m	class:GlobalCommands	file:
+CloseAllPanels	.\Keybindings\GlobalCommands.cs	/^    private static void CloseAllPanels()$/;"	m	class:GlobalCommands	file:
+ColorizeMatch	.\Keybindings\FuzzyFinder.cs	/^    public string ColorizeMatch(string commandName, string query)$/;"	m	class:FuzzyFinder
+CommandBindingRow	.\Keybindings\UI\KeybindingsScreen.cs	/^    private class CommandBindingRow$/;"	c	class:KeybindingsScreen
+CommandInvokerBase	.\Keybindings\CommandInvokers\CommandInvokerBase.cs	/^    protected CommandInvokerBase(JSONStorable storable, string ns, string localName)$/;"	m	class:CommandInvokerBase
+CommandInvokerBase	.\Keybindings\CommandInvokers\CommandInvokerBase.cs	/^﻿public abstract class CommandInvokerBase$/;"	c
+Configure	.\CustomCommands\UI\CustomCommandsScreen.cs	/^    public void Configure()$/;"	m	class:CustomCommandsScreen
+Configure	.\Keybindings\UI\KeybindingsScreen.cs	/^    public void Configure()$/;"	m	class:KeybindingsScreen
+Constants	.\Keybindings\Constants.cs	/^﻿public static class Constants$/;"	c
+CreateAction	.\CustomCommands\ParameterizedTriggers.cs	/^    private void CreateAction(string jsaName, JSONStorableAction.ActionCallback fn)$/;"	m	class:ParameterizedTriggers	file:
+CreateAction	.\Keybindings\GlobalCommands.cs	/^    private void CreateAction(string ns, string jsaName, Action fn)$/;"	m	class:GlobalCommands	file:
+CreateActionWithChoice	.\CustomCommands\ParameterizedTriggers.cs	/^    private void CreateActionWithChoice(string jssName, Action<string> fn, Func<List<string>> genChoices)$/;"	m	class:ParameterizedTriggers	file:
+CreateActionWithParam	.\CustomCommands\ParameterizedTriggers.cs	/^    private void CreateActionWithParam(string jssName, Action<string> fn)$/;"	m	class:ParameterizedTriggers	file:
+CreateAnalog	.\Keybindings\GlobalCommands.cs	/^    private JSONStorableFloat CreateAnalog(string ns, string jsfName)$/;"	m	class:GlobalCommands	file:
+CreateBinding	.\AddPlugin\PluginReference.cs	/^    public JSONStorableAction CreateBinding()$/;"	m	class:PluginReference
+CreateBindingButton	.\Keybindings\UI\KeybindingsScreen.cs	/^    private UIDynamicButton CreateBindingButton(ICommandInvoker commandInvoker, GameObject go, int slot)$/;"	m	class:KeybindingsScreen	file:
+CreateButton	.\Shared\PrefabManager.cs	/^    UIDynamicButton CreateButton(Transform transform, string label);$/;"	m	interface:IPrefabManager
+CreateButton	.\Shared\PrefabManager.cs	/^    public UIDynamicButton CreateButton(Transform transform, string label)$/;"	m	class:PrefabManager
+CreateDefaults	.\Keybindings\KeybindingsStorage.cs	/^    public void CreateDefaults()$/;"	m	class:KeybindingsStorage
+CreateEnabledToggle	.\ScenePluginTriggers\KeybindingsExtensions_ScenePluginTriggers.cs	/^    private JSONStorableBool CreateEnabledToggle(string label, string ns)$/;"	m	class:KeybindingsExtensions_ScenePluginTriggers	file:
+CreateOverlayGameObject	.\Keybindings\Overlays\KeybindingsOverlay.cs	/^    public static KeybindingsOverlay CreateOverlayGameObject(PrefabManager prefabManager)$/;"	m	class:KeybindingsOverlay
+CreateRows	.\Keybindings\UI\KeybindingsScreen.cs	/^    private void CreateRows()$/;"	m	class:KeybindingsScreen	file:
+CreateSlider	.\Shared\PrefabManager.cs	/^    UIDynamicSlider CreateSlider(Transform transform, string label);$/;"	m	interface:IPrefabManager
+CreateSlider	.\Shared\PrefabManager.cs	/^    public UIDynamicSlider CreateSlider(Transform transform, string label)$/;"	m	class:PrefabManager
+CreateSpacer	.\Shared\PrefabManager.cs	/^    Transform CreateSpacer(Transform transform, float height);$/;"	m	interface:IPrefabManager
+CreateSpacer	.\Shared\PrefabManager.cs	/^    public Transform CreateSpacer(Transform transform, float height)$/;"	m	class:PrefabManager
+CreateText	.\Shared\PrefabManager.cs	/^    Text CreateText(Transform transform, string label);$/;"	m	interface:IPrefabManager
+CreateText	.\Shared\PrefabManager.cs	/^    public Text CreateText(Transform transform, string label)$/;"	m	class:PrefabManager
+CreateTitle	.\ScenePluginTriggers\KeybindingsExtensions_ScenePluginTriggers.cs	/^    private void CreateTitle(string storableName)$/;"	m	class:KeybindingsExtensions_ScenePluginTriggers	file:
+CreateToggle	.\Shared\PrefabManager.cs	/^    UIDynamicToggle CreateToggle(Transform transform, string label);$/;"	m	interface:IPrefabManager
+CreateToggle	.\Shared\PrefabManager.cs	/^    public UIDynamicToggle CreateToggle(Transform transform, string label)$/;"	m	class:PrefabManager
+CreateTriggerActionDiscreteUI	.\CustomCommands\Commands\TriggerCommandBase.cs	/^    public RectTransform CreateTriggerActionDiscreteUI()$/;"	m	class:TriggerCommandBase
+CreateTriggerActionMiniUI	.\CustomCommands\Commands\TriggerCommandBase.cs	/^    public RectTransform CreateTriggerActionMiniUI()$/;"	m	class:TriggerCommandBase
+CreateTriggerActionTransitionUI	.\CustomCommands\Commands\TriggerCommandBase.cs	/^    public RectTransform CreateTriggerActionTransitionUI()$/;"	m	class:TriggerCommandBase
+CreateTriggerActionsUI	.\CustomCommands\Commands\TriggerCommandBase.cs	/^    public RectTransform CreateTriggerActionsUI()$/;"	m	class:TriggerCommandBase
+CreateUID	.\Keybindings\SuperControllerExtensions.cs	/^    public static string CreateUID(this SuperController sc, string source)$/;"	m	class:SuperControllerExtensions
+CustomActions	.\CustomCommands\CustomCommandsRepository.cs	/^namespace CustomActions$/;"	n
+CustomCommands	.\CustomCommands\CustomCommands.cs	/^public class CustomCommands : MVRScript, ICommandsProvider$/;"	c
+CustomCommandsRepository	.\CustomCommands\CustomCommandsRepository.cs	/^        public CustomCommandsRepository(Atom containingAtom, IPrefabManager prefabManager)$/;"	m	class:CustomActions.CustomCommandsRepository
+CustomCommandsRepository	.\CustomCommands\CustomCommandsRepository.cs	/^    public class CustomCommandsRepository : ICustomCommandsRepository$/;"	c	namespace:CustomActions
+CustomCommandsScreen	.\CustomCommands\UI\CustomCommandsScreen.cs	/^public class CustomCommandsScreen : MonoBehaviour$/;"	c
+Debug	.\Keybindings\KeyMapManager.cs	/^    public void Debug(KeyMapTreeNode node, int indent = 0)$/;"	m	class:KeyMapManager
+DebugCommand	.\CustomCommands\Commands\DebugCommand.cs	/^public class DebugCommand : ICustomCommand$/;"	c
+DeferredInit	.\CustomCommands\CustomCommands.cs	/^    private IEnumerator DeferredInit()$/;"	m	class:CustomCommands	file:
+DisabledCommandInvoker	.\Keybindings\CommandInvokers\DisabledCommandInvoker.cs	/^    public DisabledCommandInvoker(string commandName, string prettyString, int slot)$/;"	m	class:DisabledCommandInvoker
+DisabledCommandInvoker	.\Keybindings\CommandInvokers\DisabledCommandInvoker.cs	/^﻿public class DisabledCommandInvoker : ICommandInvoker$/;"	c
+DiscreteTriggerCommand	.\CustomCommands\Commands\DiscreteTriggerCommand.cs	/^    public DiscreteTriggerCommand(Atom defaultAtom, IPrefabManager prefabManager)$/;"	m	class:DiscreteTriggerCommand
+DiscreteTriggerCommand	.\CustomCommands\Commands\DiscreteTriggerCommand.cs	/^public class DiscreteTriggerCommand : TriggerCommandBase, ICustomCommand$/;"	c
+Dispose	.\Keybindings\AnalogMapManager.cs	/^    public void Dispose()$/;"	m	class:AnalogMapManager
+Dispose	.\Keybindings\KeyMapManager.cs	/^    public void Dispose()$/;"	m	class:KeyMapManager
+Dispose	.\Keybindings\RemoteCommandsManager.cs	/^    public void Dispose()$/;"	m	class:RemoteCommandsManager
+DoFuzzyMatch	.\Keybindings\FuzzyFinder.cs	/^    private static bool DoFuzzyMatch(string stringToSearch, string pattern, out int outScore)$/;"	m	class:FuzzyFinder	file:
+DoMatch	.\Keybindings\NormalModeHandler.cs	/^    private static KeyMapTreeNode DoMatch(KeyMapTreeNode node)$/;"	m	class:NormalModeHandler	file:
+DuplicateTrigger	.\CustomCommands\Commands\TriggerCommandBase.cs	/^    public void DuplicateTrigger(Trigger t)$/;"	m	class:TriggerCommandBase
+Edit	.\CustomCommands\Commands\DebugCommand.cs	/^    public UnityEvent Edit()$/;"	m	class:DebugCommand
+Edit	.\CustomCommands\Commands\ICustomCommand.cs	/^    UnityEvent Edit();$/;"	m	interface:ICustomCommand
+Edit	.\CustomCommands\Commands\TriggerCommandBase.cs	/^    public virtual UnityEvent Edit()$/;"	m	class:TriggerCommandBase
+Enter	.\Keybindings\FindModeHandler.cs	/^    public void Enter()$/;"	m	class:FindModeHandler
+Enter	.\Keybindings\IModeHandler.cs	/^    void Enter();$/;"	m	interface:IModeHandler
+Enter	.\Keybindings\NormalModeHandler.cs	/^    public void Enter()$/;"	m	class:NormalModeHandler
+EnterFindMode	.\Keybindings\Keybindings.cs	/^    private void EnterFindMode()$/;"	m	class:Keybindings	file:
+EnterNormalMode	.\Keybindings\Keybindings.cs	/^    public void EnterNormalMode()$/;"	m	class:Keybindings
+EnterNormalMode	.\Keybindings\Keybindings.cs	/^    void EnterNormalMode();$/;"	m	interface:IKeybindingsModeSelector
+Equals	.\Keybindings\KeyChord.cs	/^    public bool Equals(KeyChord other)$/;"	m	struct:KeyChord
+Equals	.\Keybindings\KeyChord.cs	/^    public override bool Equals(object obj)$/;"	m	struct:KeyChord
+Export	.\Keybindings\KeybindingsStorage.cs	/^    public void Export(string path)$/;"	m	class:KeybindingsStorage
+ExportDefault	.\Keybindings\KeybindingsStorage.cs	/^    public void ExportDefault()$/;"	m	class:KeybindingsStorage
+FindModeHandler	.\Keybindings\FindModeHandler.cs	/^    public FindModeHandler(IKeybindingsModeSelector modeSelector, RemoteCommandsManager remoteCommandsManager, KeybindingsOverlayReference overlay)$/;"	m	class:FindModeHandler
+FindModeHandler	.\Keybindings\FindModeHandler.cs	/^public class FindModeHandler : IModeHandler$/;"	c
+FromJSON	.\Keybindings\KeyChord.cs	/^    public static KeyChord FromJSON(JSONNode jsonNode)$/;"	m	struct:KeyChord
+FuzzyFind	.\Keybindings\FuzzyFinder.cs	/^    public bool FuzzyFind(string query)$/;"	m	class:FuzzyFinder
+FuzzyFinder	.\Keybindings\FuzzyFinder.cs	/^public class FuzzyFinder$/;"	c
+FuzzyMatch	.\Keybindings\FuzzyFinder.cs	/^    private struct FuzzyMatch$/;"	s	class:FuzzyFinder
+GetAxis	.\Keybindings\AnalogMap.cs	/^    public float GetAxis()$/;"	m	class:AnalogMap
+GetAxis	.\Keybindings\AnalogMap.cs	/^    public static float GetAxis(string axisName)$/;"	m	class:AnalogMap
+GetCurrent	.\Keybindings\KeyCodes.cs	/^    public static KeyCode GetCurrent(this KeyCode[] keyCodes)$/;"	m	class:KeyCodes
+GetCurrentDown	.\Keybindings\KeyCodes.cs	/^    public static KeyCode GetCurrentDown(this KeyCode[] keyCodes)$/;"	m	class:KeyCodes
+GetCurrentUp	.\Keybindings\KeyCodes.cs	/^    public static KeyCode GetCurrentUp(this KeyCode[] keyCodes)$/;"	m	class:KeyCodes
+GetEnumerator	.\CustomCommands\CustomCommandsRepository.cs	/^        public IEnumerator GetEnumerator()$/;"	m	class:CustomActions.CustomCommandsRepository
+GetHashCode	.\Keybindings\KeyChord.cs	/^    public override int GetHashCode()$/;"	m	struct:KeyChord
+GetJSON	.\AddPlugin\KeybindingsExtensions_AddPlugin.cs	/^    public override JSONClass GetJSON(bool includePhysical = true, bool includeAppearance = true, bool forceStore = false)$/;"	m	class:KeybindingsExtensions_AddPlugin
+GetJSON	.\AddPlugin\PluginReference.cs	/^    public JSONNode GetJSON()$/;"	m	class:PluginReference
+GetJSON	.\CustomCommands\Commands\DebugCommand.cs	/^    public JSONClass GetJSON()$/;"	m	class:DebugCommand
+GetJSON	.\CustomCommands\Commands\DiscreteTriggerCommand.cs	/^    public override JSONClass GetJSON()$/;"	m	class:DiscreteTriggerCommand
+GetJSON	.\CustomCommands\Commands\ICustomCommand.cs	/^    JSONClass GetJSON();$/;"	m	interface:ICustomCommand
+GetJSON	.\CustomCommands\Commands\TriggerCommandBase.cs	/^    public virtual JSONClass GetJSON()$/;"	m	class:TriggerCommandBase
+GetJSON	.\CustomCommands\CustomCommands.cs	/^    public override JSONClass GetJSON(bool includePhysical = true, bool includeAppearance = true, bool forceStore = false)$/;"	m	class:CustomCommands
+GetJSON	.\CustomCommands\CustomCommandsRepository.cs	/^        public JSONNode GetJSON()$/;"	m	class:CustomActions.CustomCommandsRepository
+GetJSON	.\Keybindings\AnalogMap.cs	/^    public JSONClass GetJSON()$/;"	m	class:AnalogMap
+GetJSON	.\Keybindings\AnalogMapManager.cs	/^    JSONArray GetJSON();$/;"	m	interface:IAnalogMapManager
+GetJSON	.\Keybindings\AnalogMapManager.cs	/^    public JSONArray GetJSON()$/;"	m	class:AnalogMapManager
+GetJSON	.\Keybindings\KeyChord.cs	/^    public JSONNode GetJSON()$/;"	m	struct:KeyChord
+GetJSON	.\Keybindings\KeyMap.cs	/^    public JSONClass GetJSON()$/;"	m	class:KeyMap
+GetJSON	.\Keybindings\KeyMapManager.cs	/^    public JSONArray GetJSON()$/;"	m	class:KeyMapManager
+GetJSON	.\Keybindings\KeybindingsSettings.cs	/^    JSONClass GetJSON();$/;"	m	interface:IKeybindingsSettings
+GetJSON	.\Keybindings\KeybindingsSettings.cs	/^    public JSONClass GetJSON()$/;"	m	class:KeybindingsSettings
+GetJSON	.\ScenePluginTriggers\KeybindingsExtensions_ScenePluginTriggers.cs	/^    public override JSONClass GetJSON(bool includePhysical = true, bool includeAppearance = true, bool forceStore = false)$/;"	m	class:KeybindingsExtensions_ScenePluginTriggers
+GetKeyChordsAsString	.\Keybindings\KeyChordExtensions.cs	/^    public static string GetKeyChordsAsString(this IEnumerable<KeyChord> chords)$/;"	m	class:KeyChordExtensions
+GetLastSelectedAtomOfType	.\Keybindings\SelectionHistoryManager.cs	/^    Atom GetLastSelectedAtomOfType(string type);$/;"	m	interface:ISelectionHistoryManager
+GetLastSelectedAtomOfType	.\Keybindings\SelectionHistoryManager.cs	/^    public Atom GetLastSelectedAtomOfType(string type)$/;"	m	class:SelectionHistoryManager
+GetLatestScriptPerAtom	.\Keybindings\SelectionHistoryManager.cs	/^    public MVRScript GetLatestScriptPerAtom(Atom atom)$/;"	m	class:SelectionHistoryManager
+GetMapByName	.\Keybindings\AnalogMapManager.cs	/^    AnalogMap GetMapByName(string commandName, int slot);$/;"	m	interface:IAnalogMapManager
+GetMapByName	.\Keybindings\AnalogMapManager.cs	/^    public AnalogMap GetMapByName(string commandName, int slot)$/;"	m	class:AnalogMapManager
+GetMapByName	.\Keybindings\KeyMapManager.cs	/^    KeyMap GetMapByName(string commandName, int slot);$/;"	m	interface:IKeyMapManager
+GetMapByName	.\Keybindings\KeyMapManager.cs	/^    public KeyMap GetMapByName(string commandName, int slot)$/;"	m	class:KeyMapManager
+GetMappedBinding	.\Keybindings\UI\KeybindingsScreen.cs	/^    private string GetMappedBinding(ICommandInvoker commandInvoker, int slot)$/;"	m	class:KeybindingsScreen	file:
+GetName	.\ScenePluginTriggers\KeybindingsExtensions_ScenePluginTriggers.cs	/^    private static string GetName(string storable, string name)$/;"	m	class:KeybindingsExtensions_ScenePluginTriggers	file:
+GetNamespace	.\Keybindings\RemoteCommandsManager.cs	/^    private static string GetNamespace(string storableName)$/;"	m	class:RemoteCommandsManager	file:
+GetPrettyString	.\Keybindings\AnalogMap.cs	/^    public string GetPrettyString()$/;"	m	class:AnalogMap
+GetPrettyString	.\Keybindings\IMap.cs	/^    string GetPrettyString();$/;"	m	interface:IMap
+GetPrettyString	.\Keybindings\KeyMap.cs	/^    public string GetPrettyString()$/;"	m	class:KeyMap
+GlobalCommands	.\Keybindings\GlobalCommands.cs	/^    public GlobalCommands(JSONStorable owner, Atom containingAtom, ISelectionHistoryManager selectionHistoryManager, RemoteCommandsManager remoteCommandsManager)$/;"	m	class:GlobalCommands
+GlobalCommands	.\Keybindings\GlobalCommands.cs	/^public class GlobalCommands$/;"	c
+IActionCommandInvoker	.\Keybindings\CommandInvokers\ICommandInvoker.cs	/^public interface IActionCommandInvoker : ICommandInvoker$/;"	i
+IActionsInvoker	.\Shared\ICommandsInvoker.cs	/^﻿public interface IActionsInvoker$/;"	i
+IAnalogCommandInvoker	.\Keybindings\CommandInvokers\ICommandInvoker.cs	/^public interface IAnalogCommandInvoker : ICommandInvoker$/;"	i
+IAnalogMapManager	.\Keybindings\AnalogMapManager.cs	/^public interface IAnalogMapManager : IDisposable$/;"	i
+ICommandInvoker	.\Keybindings\CommandInvokers\ICommandInvoker.cs	/^﻿public interface ICommandInvoker$/;"	i
+ICommandInvoker	.\Keybindings\RemoteCommandsManager.cs	/^    private T SelectCommandInvoker<T>(IList<T> commandInvokers) where T : ICommandInvoker$/;"	p	class:RemoteCommandsManager
+ICommandInvoker	.\Keybindings\RemoteCommandsManager.cs	/^    private void Add<T>(Dictionary<string, List<T>> commandsByName, T invoker, bool findable) where T : ICommandInvoker$/;"	p	class:RemoteCommandsManager
+ICommandReleaser	.\Keybindings\CommandInvokers\ICommandInvoker.cs	/^public interface ICommandReleaser$/;"	i
+ICommandsProvider	.\Shared\ICommandsProvider.cs	/^public interface ICommandsProvider$/;"	i
+ICustomCommand	.\CustomCommands\Commands\ICustomCommand.cs	/^public interface ICustomCommand$/;"	i
+ICustomCommandsRepository	.\CustomCommands\CustomCommandsRepository.cs	/^    public interface ICustomCommandsRepository : IEnumerable$/;"	i	namespace:CustomActions
+IKeyMapManager	.\Keybindings\KeyMapManager.cs	/^public interface IKeyMapManager : IDisposable$/;"	i
+IKeybindingsModeSelector	.\Keybindings\Keybindings.cs	/^public interface IKeybindingsModeSelector$/;"	i
+IKeybindingsSettings	.\Keybindings\KeybindingsSettings.cs	/^public interface IKeybindingsSettings$/;"	i
+IMap	.\Keybindings\IMap.cs	/^﻿public interface IMap$/;"	i
+IModeHandler	.\Keybindings\IModeHandler.cs	/^﻿public interface IModeHandler$/;"	i
+IPrefabManager	.\Shared\PrefabManager.cs	/^public interface IPrefabManager$/;"	i
+ISelectionHistoryManager	.\Keybindings\SelectionHistoryManager.cs	/^public interface ISelectionHistoryManager$/;"	i
+Import	.\Keybindings\KeybindingsStorage.cs	/^    private bool Import(bool clear, string path)$/;"	m	class:KeybindingsStorage	file:
+ImportDefaults	.\Keybindings\KeybindingsStorage.cs	/^    public void ImportDefaults()$/;"	m	class:KeybindingsStorage
+Init	.\AddPlugin\KeybindingsExtensions_AddPlugin.cs	/^    public override void Init()$/;"	m	class:KeybindingsExtensions_AddPlugin
+Init	.\CustomCommands\CustomCommands.cs	/^    public override void Init()$/;"	m	class:CustomCommands
+Init	.\CustomCommands\ParameterizedTriggers.cs	/^    public void Init()$/;"	m	class:ParameterizedTriggers
+Init	.\Keybindings\FuzzyFinder.cs	/^    public void Init(List<string> values)$/;"	m	class:FuzzyFinder
+Init	.\Keybindings\GlobalCommands.cs	/^    public void Init()$/;"	m	class:GlobalCommands
+Init	.\Keybindings\Keybindings.cs	/^    public override void Init()$/;"	m	class:Keybindings
+Init	.\ScenePluginTriggers\KeybindingsExtensions_ScenePluginTriggers.cs	/^    public override void Init()$/;"	m	class:KeybindingsExtensions_ScenePluginTriggers
+InitUI	.\AddPlugin\KeybindingsExtensions_AddPlugin.cs	/^    public override void InitUI()$/;"	m	class:KeybindingsExtensions_AddPlugin
+InitUI	.\CustomCommands\CustomCommands.cs	/^    public override void InitUI()$/;"	m	class:CustomCommands
+InitUI	.\Keybindings\Keybindings.cs	/^    public override void InitUI()$/;"	m	class:Keybindings
+InitUI	.\ScenePluginTriggers\KeybindingsExtensions_ScenePluginTriggers.cs	/^    public override void InitUI()$/;"	m	class:KeybindingsExtensions_ScenePluginTriggers
+Initialize	.\Keybindings\UI\KeybindingsScreen.cs	/^    public void Initialize()$/;"	m	class:KeybindingsScreen
+InjectUISpy	.\Keybindings\RemoteCommandsManager.cs	/^    private IEnumerator InjectUISpy(MVRScript script)$/;"	m	class:RemoteCommandsManager	file:
+InjectUISpyNow	.\Keybindings\RemoteCommandsManager.cs	/^    private bool InjectUISpyNow(MVRScript script)$/;"	m	class:RemoteCommandsManager	file:
+Invoke	.\AddPlugin\PluginReference.cs	/^    private void Invoke()$/;"	m	class:PluginReference	file:
+Invoke	.\CustomCommands\Commands\DebugCommand.cs	/^    public void Invoke()$/;"	m	class:DebugCommand
+Invoke	.\CustomCommands\Commands\DiscreteTriggerCommand.cs	/^    public void Invoke()$/;"	m	class:DiscreteTriggerCommand
+Invoke	.\CustomCommands\Commands\ICustomCommand.cs	/^    void Invoke();$/;"	m	interface:ICustomCommand
+Invoke	.\Keybindings\CommandInvokers\ActionCommandInvoker.cs	/^    public ICommandReleaser Invoke()$/;"	m	class:ActionCommandInvoker
+Invoke	.\Keybindings\CommandInvokers\ICommandInvoker.cs	/^    ICommandReleaser Invoke();$/;"	m	interface:IActionCommandInvoker
+Invoke	.\Keybindings\CommandInvokers\JSONStorableActionCommandInvoker.cs	/^    public ICommandReleaser Invoke()$/;"	m	class:JSONStorableActionCommandInvoker
+Invoke	.\Keybindings\CommandInvokers\JSONStorableBoolCommandInvoker.cs	/^    public ICommandReleaser Invoke()$/;"	m	class:JSONStorableBoolCommandInvoker
+Invoke	.\Keybindings\FindModeHandler.cs	/^    private void Invoke(string action)$/;"	m	class:FindModeHandler	file:
+Invoke	.\Keybindings\NormalModeHandler.cs	/^    private void Invoke(KeyMap map)$/;"	m	class:NormalModeHandler	file:
+Invoke	.\Keybindings\RemoteCommandsManager.cs	/^    public ICommandReleaser Invoke(string name)$/;"	m	class:RemoteCommandsManager
+InvokeKeybindingsAction	.\Keybindings\Keybindings.cs	/^    public void InvokeKeybindingsAction(string commandName)$/;"	m	class:Keybindings
+IsActive	.\Keybindings\KeyChord.cs	/^    public bool IsActive()$/;"	m	struct:KeyChord
+IsDown	.\Keybindings\KeyChord.cs	/^    public bool IsDown()$/;"	m	struct:KeyChord
+IsValid	.\Keybindings\KeyChord.cs	/^    public static bool IsValid(KeyCode key)$/;"	m	struct:KeyChord
+JSONStorableActionCommandInvoker	.\Keybindings\CommandInvokers\JSONStorableActionCommandInvoker.cs	/^    public JSONStorableActionCommandInvoker(JSONStorable storable, string ns, string localName, JSONStorableAction action)$/;"	m	class:JSONStorableActionCommandInvoker
+JSONStorableActionCommandInvoker	.\Keybindings\CommandInvokers\JSONStorableActionCommandInvoker.cs	/^﻿public class JSONStorableActionCommandInvoker : CommandInvokerBase, IActionCommandInvoker$/;"	c
+JSONStorableBoolCommandInvoker	.\Keybindings\CommandInvokers\JSONStorableBoolCommandInvoker.cs	/^    public JSONStorableBoolCommandInvoker(JSONStorable storable, string ns, string localName, JSONStorableBool action)$/;"	m	class:JSONStorableBoolCommandInvoker
+JSONStorableBoolCommandInvoker	.\Keybindings\CommandInvokers\JSONStorableBoolCommandInvoker.cs	/^﻿public class JSONStorableBoolCommandInvoker : CommandInvokerBase, IActionCommandInvoker, ICommandReleaser$/;"	c
+JSONStorableFloatCommandInvoker	.\Keybindings\CommandInvokers\JSONStorableFloatCommandInvoker.cs	/^    public JSONStorableFloatCommandInvoker(JSONStorable storable, string ns, string localName, JSONStorableFloat storableFloat)$/;"	m	class:JSONStorableFloatCommandInvoker
+JSONStorableFloatCommandInvoker	.\Keybindings\CommandInvokers\JSONStorableFloatCommandInvoker.cs	/^﻿public class JSONStorableFloatCommandInvoker : CommandInvokerBase, IAnalogCommandInvoker$/;"	c
+KeyChord	.\Keybindings\KeyChord.cs	/^    public KeyChord(KeyCode key, bool ctrl, bool alt, bool shift)$/;"	m	struct:KeyChord
+KeyChord	.\Keybindings\KeyChord.cs	/^public struct KeyChord$/;"	s
+KeyChordExtensions	.\Keybindings\KeyChordExtensions.cs	/^public static class KeyChordExtensions$/;"	c
+KeyCodes	.\Keybindings\KeyCodes.cs	/^public static class KeyCodes$/;"	c
+KeyMap	.\Keybindings\KeyMap.cs	/^    public KeyMap()$/;"	m	class:KeyMap
+KeyMap	.\Keybindings\KeyMap.cs	/^    public KeyMap(KeyChord[] chords, string commandName, int slot = 0)$/;"	m	class:KeyMap
+KeyMap	.\Keybindings\KeyMap.cs	/^public class KeyMap : IMap$/;"	c
+KeyMapManager	.\Keybindings\KeyMapManager.cs	/^public class KeyMapManager : IKeyMapManager$/;"	c
+KeyMapTreeNode	.\Keybindings\KeyMapTreeNode.cs	/^public class KeyMapTreeNode$/;"	c
+Keybindings	.\Keybindings\Keybindings.cs	/^public class Keybindings : MVRScript, IActionsInvoker, IKeybindingsModeSelector$/;"	c
+KeybindingsExtensions_AddPlugin	.\AddPlugin\KeybindingsExtensions_AddPlugin.cs	/^public class KeybindingsExtensions_AddPlugin : MVRScript$/;"	c
+KeybindingsExtensions_ScenePluginTriggers	.\ScenePluginTriggers\KeybindingsExtensions_ScenePluginTriggers.cs	/^    public KeybindingsExtensions_ScenePluginTriggers()$/;"	m	class:KeybindingsExtensions_ScenePluginTriggers
+KeybindingsExtensions_ScenePluginTriggers	.\ScenePluginTriggers\KeybindingsExtensions_ScenePluginTriggers.cs	/^public class KeybindingsExtensions_ScenePluginTriggers : MVRScript$/;"	c
+KeybindingsOverlay	.\Keybindings\Overlays\KeybindingsOverlay.cs	/^public class KeybindingsOverlay : MonoBehaviour$/;"	c
+KeybindingsOverlayReference	.\Keybindings\Overlays\KeybindingsOverlay.cs	/^public class KeybindingsOverlayReference$/;"	c
+KeybindingsScreen	.\Keybindings\UI\KeybindingsScreen.cs	/^public class KeybindingsScreen : MonoBehaviour$/;"	c
+KeybindingsSettings	.\Keybindings\KeybindingsSettings.cs	/^public class KeybindingsSettings : IKeybindingsSettings$/;"	c
+KeybindingsStorage	.\Keybindings\KeybindingsStorage.cs	/^    public KeybindingsStorage(MVRScript plugin, KeyMapManager keyMapManager, IAnalogMapManager analogMapManager, IKeybindingsSettings settings)$/;"	m	class:KeybindingsStorage
+KeybindingsStorage	.\Keybindings\KeybindingsStorage.cs	/^public class KeybindingsStorage$/;"	c
+Leave	.\Keybindings\AnalogHandler.cs	/^    public void Leave()$/;"	m	class:AnalogHandler
+Leave	.\Keybindings\FindModeHandler.cs	/^    public void Leave()$/;"	m	class:FindModeHandler
+Leave	.\Keybindings\IModeHandler.cs	/^    void Leave();$/;"	m	interface:IModeHandler
+Leave	.\Keybindings\NormalModeHandler.cs	/^    public void Leave()$/;"	m	class:NormalModeHandler
+LoadUIAsset	.\Shared\PrefabManager.cs	/^    private static IEnumerable LoadUIAsset(string assetName, Action<RectTransform> assignPrefab)$/;"	m	class:PrefabManager	file:
+LoadUIAssets	.\Shared\PrefabManager.cs	/^    public IEnumerator LoadUIAssets()$/;"	m	class:PrefabManager
+Match	.\Keybindings\FuzzyFinder.cs	/^    public static bool Match(string value, string query)$/;"	m	class:FuzzyFinder
+MoveAndAlignToCamera	.\Keybindings\GlobalCommands.cs	/^    private static void MoveAndAlignToCamera()$/;"	m	class:GlobalCommands	file:
+MoveToCameraRaycastHit	.\Keybindings\GlobalCommands.cs	/^    private static void MoveToCameraRaycastHit()$/;"	m	class:GlobalCommands	file:
+NamespaceKey	.\Keybindings\Constants.cs	/^    public const string NamespaceKey =  "Namespace";$/;"	f	class:Constants
+NormalModeHandler	.\Keybindings\NormalModeHandler.cs	/^    public NormalModeHandler($/;"	m	class:NormalModeHandler
+NormalModeHandler	.\Keybindings\NormalModeHandler.cs	/^public class NormalModeHandler : IModeHandler$/;"	c
+NormalizedMoveMultiplier	.\Keybindings\GlobalCommands.cs	/^    private static float NormalizedMoveMultiplier(float multiplier = 1f)$/;"	m	class:GlobalCommands	file:
+OnActionsChanged	.\CustomCommands\CustomCommands.cs	/^    private void OnActionsChanged()$/;"	m	class:CustomCommands	file:
+OnActionsProviderAvailable	.\Keybindings\Keybindings.cs	/^    public void OnActionsProviderAvailable(JSONStorable storable)$/;"	m	class:Keybindings
+OnActionsProviderAvailable	.\Shared\ICommandsInvoker.cs	/^    void OnActionsProviderAvailable(JSONStorable storable);$/;"	m	interface:IActionsInvoker
+OnActionsProviderDestroyed	.\Keybindings\Keybindings.cs	/^    public void OnActionsProviderDestroyed(JSONStorable storable)$/;"	m	class:Keybindings
+OnActionsProviderDestroyed	.\Shared\ICommandsInvoker.cs	/^    void OnActionsProviderDestroyed(JSONStorable storable);$/;"	m	interface:IActionsInvoker
+OnAtomRemoved	.\ScenePluginTriggers\KeybindingsExtensions_ScenePluginTriggers.cs	/^    private void OnAtomRemoved(Atom atom)$/;"	m	class:KeybindingsExtensions_ScenePluginTriggers	file:
+OnAtomRename	.\CustomCommands\CustomCommands.cs	/^    public void OnAtomRename(string oldid, string newid)$/;"	m	class:CustomCommands
+OnBindingsListRequested	.\AddPlugin\KeybindingsExtensions_AddPlugin.cs	/^    public void OnBindingsListRequested(ICollection<object> bindings)$/;"	m	class:KeybindingsExtensions_AddPlugin
+OnBindingsListRequested	.\CustomCommands\CustomCommands.cs	/^    public void OnBindingsListRequested(ICollection<object> bindings)$/;"	m	class:CustomCommands
+OnBindingsListRequested	.\ScenePluginTriggers\KeybindingsExtensions_ScenePluginTriggers.cs	/^    public void OnBindingsListRequested(ICollection<object> bindings)$/;"	m	class:KeybindingsExtensions_ScenePluginTriggers
+OnBindingsListRequested	.\Shared\ICommandsProvider.cs	/^    void OnBindingsListRequested(ICollection<object> bindings);$/;"	m	interface:ICommandsProvider
+OnDestroy	.\AddPlugin\KeybindingsExtensions_AddPlugin.cs	/^    public void OnDestroy()$/;"	m	class:KeybindingsExtensions_AddPlugin
+OnDestroy	.\CustomCommands\CustomCommands.cs	/^    public void OnDestroy()$/;"	m	class:CustomCommands
+OnDestroy	.\Keybindings\Keybindings.cs	/^    public void OnDestroy()$/;"	m	class:Keybindings
+OnDestroy	.\Keybindings\PluginUISpy.cs	/^    public void OnDestroy()$/;"	m	class:PluginUISpy
+OnDestroy	.\ScenePluginTriggers\KeybindingsExtensions_ScenePluginTriggers.cs	/^    public void OnDestroy()$/;"	m	class:KeybindingsExtensions_ScenePluginTriggers
+OnDisable	.\CustomCommands\UI\CustomCommandsScreen.cs	/^    public void OnDisable()$/;"	m	class:CustomCommandsScreen
+OnDisable	.\Keybindings\Keybindings.cs	/^    public void OnDisable()$/;"	m	class:Keybindings
+OnDisable	.\Keybindings\UI\KeybindingsScreen.cs	/^    public void OnDisable()$/;"	m	class:KeybindingsScreen
+OnEnable	.\CustomCommands\UI\CustomCommandsScreen.cs	/^    public void OnEnable()$/;"	m	class:CustomCommandsScreen
+OnEnable	.\Keybindings\Keybindings.cs	/^    public void OnEnable()$/;"	m	class:Keybindings
+OnEnable	.\Keybindings\PluginUISpy.cs	/^    public void OnEnable()$/;"	m	class:PluginUISpy
+OnEnable	.\Keybindings\UI\KeybindingsScreen.cs	/^    public void OnEnable()$/;"	m	class:KeybindingsScreen
+OnFilterChanged	.\Keybindings\UI\KeybindingsScreen.cs	/^    private void OnFilterChanged()$/;"	m	class:KeybindingsScreen	file:
+OnKeyDown	.\Keybindings\FindModeHandler.cs	/^    public void OnKeyDown()$/;"	m	class:FindModeHandler
+OnKeyDown	.\Keybindings\IModeHandler.cs	/^    void OnKeyDown();$/;"	m	interface:IModeHandler
+OnKeyDown	.\Keybindings\NormalModeHandler.cs	/^    public void OnKeyDown()$/;"	m	class:NormalModeHandler
+OnKeybindingsChanged	.\Keybindings\UI\KeybindingsScreen.cs	/^    private void OnKeybindingsChanged()$/;"	m	class:KeybindingsScreen	file:
+OnPluginsListChanged	.\AddPlugin\KeybindingsExtensions_AddPlugin.cs	/^    private void OnPluginsListChanged()$/;"	m	class:KeybindingsExtensions_AddPlugin	file:
+OnSceneLoaded	.\ScenePluginTriggers\KeybindingsExtensions_ScenePluginTriggers.cs	/^    private void OnSceneLoaded()$/;"	m	class:KeybindingsExtensions_ScenePluginTriggers	file:
+OnSelectedAtom	.\Keybindings\GlobalCommands.cs	/^    private static void OnSelectedAtom(Action<Atom> fn)$/;"	m	class:GlobalCommands	file:
+OnSelectedAtom	.\Keybindings\GlobalCommands.cs	/^    private static void OnSelectedAtom(string type, Action<Atom> fn)$/;"	m	class:GlobalCommands	file:
+OnSelectedController	.\Keybindings\GlobalCommands.cs	/^    private static void OnSelectedController(Action<FreeControllerV3> fn)$/;"	m	class:GlobalCommands	file:
+OnSubsceneLoaded	.\ScenePluginTriggers\KeybindingsExtensions_ScenePluginTriggers.cs	/^    private void OnSubsceneLoaded(SubScene subscene)$/;"	m	class:KeybindingsExtensions_ScenePluginTriggers	file:
+Open	.\CustomCommands\Commands\DiscreteTriggerCommand.cs	/^    protected override UnityEvent Open()$/;"	m	class:DiscreteTriggerCommand
+Open	.\CustomCommands\Commands\TriggerCommandBase.cs	/^    protected virtual UnityEvent Open()$/;"	m	class:TriggerCommandBase
+OpenExportDialog	.\Keybindings\KeybindingsStorage.cs	/^    public void OpenExportDialog()$/;"	m	class:KeybindingsStorage
+OpenImportDialog	.\Keybindings\KeybindingsStorage.cs	/^    public void OpenImportDialog(bool clear)$/;"	m	class:KeybindingsStorage
+OpenMainTab	.\Keybindings\GlobalCommands.cs	/^    private static void OpenMainTab(string tabName)$/;"	m	class:GlobalCommands	file:
+OpenPlugin	.\Keybindings\GlobalCommands.cs	/^    private void OpenPlugin(int i)$/;"	m	class:GlobalCommands	file:
+OpenSettings	.\Keybindings\Keybindings.cs	/^    private void OpenSettings()$/;"	m	class:Keybindings	file:
+OpenSettings	.\ScenePluginTriggers\KeybindingsExtensions_ScenePluginTriggers.cs	/^    private void OpenSettings()$/;"	m	class:KeybindingsExtensions_ScenePluginTriggers	file:
+OpenTab	.\Keybindings\GlobalCommands.cs	/^    private Atom OpenTab(Func<string, string> getTabName, string type = null)$/;"	m	class:GlobalCommands	file:
+OpenTab	.\Shared\SuperControllerExtensions.cs	/^    public static void OpenTab(this SuperController sc, Atom selectedAtom, string tabName)$/;"	m	class:SuperControllerExtensions
+ParameterizedTriggers	.\CustomCommands\ParameterizedTriggers.cs	/^    public ParameterizedTriggers(MVRScript script)$/;"	m	class:ParameterizedTriggers
+ParameterizedTriggers	.\CustomCommands\ParameterizedTriggers.cs	/^public class ParameterizedTriggers$/;"	c
+PluginReference	.\AddPlugin\PluginReference.cs	/^    public PluginReference(MVRScript plugin)$/;"	m	class:PluginReference
+PluginReference	.\AddPlugin\PluginReference.cs	/^public class PluginReference$/;"	c
+PluginTriggerActionBinding	.\ScenePluginTriggers\PluginTriggerBinding.cs	/^    public PluginTriggerActionBinding(string name)$/;"	m	class:PluginTriggerActionBinding
+PluginTriggerActionBinding	.\ScenePluginTriggers\PluginTriggerBinding.cs	/^public class PluginTriggerActionBinding : PluginTriggerBinding$/;"	c
+PluginTriggerBinding	.\ScenePluginTriggers\PluginTriggerBinding.cs	/^public abstract class PluginTriggerBinding$/;"	c
+PluginTriggerBoolBinding	.\ScenePluginTriggers\PluginTriggerBinding.cs	/^    public PluginTriggerBoolBinding(string name)$/;"	m	class:PluginTriggerBoolBinding
+PluginTriggerBoolBinding	.\ScenePluginTriggers\PluginTriggerBinding.cs	/^public class PluginTriggerBoolBinding : PluginTriggerBinding$/;"	c
+PluginTriggerMissingBinding	.\ScenePluginTriggers\PluginTriggerBinding.cs	/^    public PluginTriggerMissingBinding(string name)$/;"	m	class:PluginTriggerMissingBinding
+PluginTriggerMissingBinding	.\ScenePluginTriggers\PluginTriggerBinding.cs	/^public class PluginTriggerMissingBinding : PluginTriggerBinding$/;"	c
+PluginUISpy	.\Keybindings\PluginUISpy.cs	/^public class PluginUISpy : MonoBehaviour$/;"	c
+PrefabManager	.\Shared\PrefabManager.cs	/^public class PrefabManager : IPrefabManager$/;"	c
+ProcessKeyboardFreeNavigation	.\Keybindings\GlobalCommands.cs	/^    private void ProcessKeyboardFreeNavigation()$/;"	m	class:GlobalCommands	file:
+RebuildTree	.\Keybindings\KeyMapManager.cs	/^    public void RebuildTree()$/;"	m	class:KeyMapManager
+RebuildTree	.\Keybindings\KeyMapManager.cs	/^    void RebuildTree();$/;"	m	interface:IKeyMapManager
+RecordAnalog	.\Keybindings\UI\KeybindingsScreen.cs	/^    private IEnumerator RecordAnalog(UIDynamicButton btn, ICommandInvoker commandInvoker, Color btnColor, int slot)$/;"	m	class:KeybindingsScreen	file:
+RecordKeys	.\Keybindings\UI\KeybindingsScreen.cs	/^    private IEnumerator RecordKeys(UIDynamicButton btn, ICommandInvoker commandInvoker, Color btnColor, int slot)$/;"	m	class:KeybindingsScreen	file:
+Release	.\Keybindings\CommandInvokers\ICommandInvoker.cs	/^    void Release();$/;"	m	interface:ICommandReleaser
+Release	.\Keybindings\CommandInvokers\JSONStorableBoolCommandInvoker.cs	/^    public void Release()$/;"	m	class:JSONStorableBoolCommandInvoker
+ReloadAllScenePlugins	.\Keybindings\GlobalCommands.cs	/^    private void ReloadAllScenePlugins()$/;"	m	class:GlobalCommands	file:
+ReloadPlugin	.\Keybindings\Keybindings.cs	/^    private void ReloadPlugin()$/;"	m	class:Keybindings	file:
+ReloadPlugins	.\Shared\TransformExtensions.cs	/^    private static bool ReloadPlugins(Transform pluginsList, string uidFilter = null)$/;"	m	class:TransformExtensions	file:
+ReloadPlugins	.\Shared\TransformExtensions.cs	/^    public static bool ReloadPlugins(this Transform transform, string uiPanelCanvasName, string tabName, string uidFilter = null)$/;"	m	class:TransformExtensions
+ReloadPluginsByName	.\CustomCommands\ParameterizedTriggers.cs	/^    private void ReloadPluginsByName(string val)$/;"	m	class:ParameterizedTriggers	file:
+RemoteCommandsManager	.\Keybindings\RemoteCommandsManager.cs	/^    public RemoteCommandsManager(MonoBehaviour owner, SelectionHistoryManager selectionHistoryManager)$/;"	m	class:RemoteCommandsManager
+RemoteCommandsManager	.\Keybindings\RemoteCommandsManager.cs	/^public class RemoteCommandsManager$/;"	c
+Remove	.\CustomCommands\CustomCommandsRepository.cs	/^        public void Remove(ICustomCommand command)$/;"	m	class:CustomActions.CustomCommandsRepository
+Remove	.\CustomCommands\CustomCommandsRepository.cs	/^        void Remove(ICustomCommand command);$/;"	m	interface:CustomActions.ICustomCommandsRepository
+Remove	.\Keybindings\RemoteCommandsManager.cs	/^    public void Remove(JSONStorable storable)$/;"	m	class:RemoteCommandsManager
+RemoveTrigger	.\CustomCommands\Commands\TriggerCommandBase.cs	/^    public void RemoveTrigger(Trigger t)$/;"	m	class:TriggerCommandBase
+RemoveTriggerActionUI	.\CustomCommands\Commands\TriggerCommandBase.cs	/^    public void RemoveTriggerActionUI(RectTransform rt)$/;"	m	class:TriggerCommandBase
+RestoreFromJSON	.\AddPlugin\KeybindingsExtensions_AddPlugin.cs	/^    public override void RestoreFromJSON(JSONClass jc, bool restorePhysical = true, bool restoreAppearance = true, JSONArray presetAtoms = null, bool setMissingToDefault = true)$/;"	m	class:KeybindingsExtensions_AddPlugin
+RestoreFromJSON	.\AddPlugin\PluginReference.cs	/^    public void RestoreFromJSON(JSONClass jc)$/;"	m	class:PluginReference
+RestoreFromJSON	.\CustomCommands\Commands\DebugCommand.cs	/^    public void RestoreFromJSON(JSONClass json)$/;"	m	class:DebugCommand
+RestoreFromJSON	.\CustomCommands\Commands\DiscreteTriggerCommand.cs	/^    public override void RestoreFromJSON(JSONClass json)$/;"	m	class:DiscreteTriggerCommand
+RestoreFromJSON	.\CustomCommands\Commands\ICustomCommand.cs	/^    void RestoreFromJSON(JSONClass json);$/;"	m	interface:ICustomCommand
+RestoreFromJSON	.\CustomCommands\Commands\TriggerCommandBase.cs	/^    public virtual void RestoreFromJSON(JSONClass json)$/;"	m	class:TriggerCommandBase
+RestoreFromJSON	.\CustomCommands\CustomCommands.cs	/^    public override void RestoreFromJSON(JSONClass jc, bool restorePhysical = true, bool restoreAppearance = true, JSONArray presetAtoms = null, bool setMissingToDefault = true)$/;"	m	class:CustomCommands
+RestoreFromJSON	.\CustomCommands\CustomCommandsRepository.cs	/^        public void RestoreFromJSON(JSONNode commandsJSON)$/;"	m	class:CustomActions.CustomCommandsRepository
+RestoreFromJSON	.\Keybindings\AnalogMap.cs	/^    public void RestoreFromJSON(JSONNode mapJSON)$/;"	m	class:AnalogMap
+RestoreFromJSON	.\Keybindings\AnalogMapManager.cs	/^    public void RestoreFromJSON(JSONNode mapsJSON)$/;"	m	class:AnalogMapManager
+RestoreFromJSON	.\Keybindings\AnalogMapManager.cs	/^    void RestoreFromJSON(JSONNode mapsJSON);$/;"	m	interface:IAnalogMapManager
+RestoreFromJSON	.\Keybindings\KeyMap.cs	/^    public void RestoreFromJSON(JSONNode mapJSON)$/;"	m	class:KeyMap
+RestoreFromJSON	.\Keybindings\KeyMapManager.cs	/^    public void RestoreFromJSON(JSONNode mapsJSON)$/;"	m	class:KeyMapManager
+RestoreFromJSON	.\Keybindings\KeybindingsSettings.cs	/^    public void RestoreFromJSON(JSONClass jc)$/;"	m	class:KeybindingsSettings
+RestoreFromJSON	.\Keybindings\KeybindingsSettings.cs	/^    void RestoreFromJSON(JSONClass jc);$/;"	m	interface:IKeybindingsSettings
+RestoreFromJSON	.\ScenePluginTriggers\KeybindingsExtensions_ScenePluginTriggers.cs	/^    public override void RestoreFromJSON(JSONClass jc, bool restorePhysical = true, bool restoreAppearance = true, JSONArray presetAtoms = null, bool setMissingToDefault = true)$/;"	m	class:KeybindingsExtensions_ScenePluginTriggers
+RotateController	.\Keybindings\GlobalCommands.cs	/^    private static void RotateController(FreeControllerV3 controller, float val, Vector3 axis)$/;"	m	class:GlobalCommands	file:
+Row	.\CustomCommands\UI\CustomCommandsScreen.cs	/^    private class Row$/;"	c	class:CustomCommandsScreen
+SameBinding	.\Keybindings\KeyChordExtensions.cs	/^    public static bool SameBinding(this KeyChord[] bindings, KeyChord[] other)$/;"	m	class:KeyChordExtensions
+SaveAnalogMap	.\Keybindings\UI\KeybindingsScreen.cs	/^    private void SaveAnalogMap(ICommandInvoker commandInvoker, KeyChord binding, AnalogMap map)$/;"	m	class:KeybindingsScreen	file:
+SaveKeyMap	.\Keybindings\UI\KeybindingsScreen.cs	/^    private void SaveKeyMap(List<KeyChord> setKeybindingList, ICommandInvoker commandInvoker, int slot)$/;"	m	class:KeybindingsScreen	file:
+SelectControllerByName	.\Keybindings\GlobalCommands.cs	/^    private void SelectControllerByName(string controllerName)$/;"	m	class:GlobalCommands	file:
+SelectHandModel	.\Keybindings\GlobalCommands.cs	/^    private static void SelectHandModel(string handChoice, bool useCollision)$/;"	m	class:GlobalCommands	file:
+SelectHistoryBack	.\Keybindings\GlobalCommands.cs	/^    private void SelectHistoryBack()$/;"	m	class:GlobalCommands	file:
+SelectNextAtom	.\Keybindings\GlobalCommands.cs	/^    private static void SelectNextAtom(string type = null)$/;"	m	class:GlobalCommands	file:
+SelectPreviousAtom	.\Keybindings\GlobalCommands.cs	/^    private static void SelectPreviousAtom(string type = null)$/;"	m	class:GlobalCommands	file:
+SelectionHistoryManager	.\Keybindings\SelectionHistoryManager.cs	/^public class SelectionHistoryManager : ISelectionHistoryManager$/;"	c
+Set	.\Keybindings\Overlays\KeybindingsOverlay.cs	/^    public void Set(string value)$/;"	m	class:KeybindingsOverlay
+SetLatestScriptPerAtom	.\Keybindings\SelectionHistoryManager.cs	/^    public void SetLatestScriptPerAtom(MVRScript script)$/;"	m	class:SelectionHistoryManager
+StopRecording	.\Keybindings\UI\KeybindingsScreen.cs	/^    private void StopRecording(UIDynamicButton btn, Color btnColor, ICommandInvoker commandInvoker, int slot)$/;"	m	class:KeybindingsScreen	file:
+SuperControllerExtensions	.\Keybindings\SuperControllerExtensions.cs	/^public static partial class SuperControllerExtensions$/;"	c
+SuperControllerExtensions	.\Shared\SuperControllerExtensions.cs	/^﻿public static partial class SuperControllerExtensions$/;"	c
+SyncAtomNames	.\CustomCommands\Commands\DebugCommand.cs	/^    public void SyncAtomNames()$/;"	m	class:DebugCommand
+SyncAtomNames	.\CustomCommands\Commands\ICustomCommand.cs	/^    void SyncAtomNames();$/;"	m	interface:ICustomCommand
+SyncAtomNames	.\CustomCommands\Commands\TriggerCommandBase.cs	/^    public void SyncAtomNames()$/;"	m	class:TriggerCommandBase
+SyncAtomNames	.\CustomCommands\CustomCommandsRepository.cs	/^        public void SyncAtomNames()$/;"	m	class:CustomActions.CustomCommandsRepository
+SyncLabel	.\AddPlugin\PluginReference.cs	/^    private void SyncLabel(string val)$/;"	m	class:PluginReference	file:
+TimeoutCoroutine	.\Keybindings\NormalModeHandler.cs	/^    private IEnumerator TimeoutCoroutine()$/;"	m	class:NormalModeHandler	file:
+TimeoutLen	.\Keybindings\Constants.cs	/^    public const float TimeoutLen = 1.0f; \/\/ http:\/\/vimdoc.sourceforge.net\/htmldoc\/options.html#'timeoutlen'$/;"	f	class:Constants
+ToPrettyString	.\Keybindings\KeyCodes.cs	/^    public static string ToPrettyString(this KeyCode keyCode)$/;"	m	class:KeyCodes
+ToString	.\Keybindings\KeyChord.cs	/^    public override string ToString()$/;"	m	struct:KeyChord
+ToString	.\Keybindings\KeyMap.cs	/^    public override string ToString()$/;"	m	class:KeyMap
+ToggleName	.\ScenePluginTriggers\KeybindingsExtensions_ScenePluginTriggers.cs	/^    private void ToggleName(bool val, string ns)$/;"	m	class:KeybindingsExtensions_ScenePluginTriggers	file:
+TogglePerformanceMonitor	.\Keybindings\GlobalCommands.cs	/^    private static void TogglePerformanceMonitor()$/;"	m	class:GlobalCommands	file:
+TransformExtensions	.\Shared\TransformExtensions.cs	/^public static class TransformExtensions$/;"	c
+TriggerCommandBase	.\CustomCommands\Commands\TriggerCommandBase.cs	/^    protected TriggerCommandBase(IPrefabManager prefabManager)$/;"	m	class:TriggerCommandBase
+TriggerCommandBase	.\CustomCommands\Commands\TriggerCommandBase.cs	/^public abstract class TriggerCommandBase : TriggerHandler$/;"	c
+TryGet	.\Keybindings\KeyMapTreeNode.cs	/^    public bool TryGet(KeyChord source, out KeyMapTreeNode result)$/;"	m	class:KeyMapTreeNode
+TryGetInvoker	.\Keybindings\RemoteCommandsManager.cs	/^    public bool TryGetInvoker(string name, out IActionCommandInvoker commandInvoker)$/;"	m	class:RemoteCommandsManager
+TryRegister	.\Keybindings\RemoteCommandsManager.cs	/^    public void TryRegister(JSONStorable storable)$/;"	m	class:RemoteCommandsManager
+TryRegister	.\Keybindings\RemoteCommandsManager.cs	/^    public void TryRegister(JSONStorable storable, ICollection bindings)$/;"	m	class:RemoteCommandsManager
+Type	.\CustomCommands\Commands\DebugCommand.cs	/^    public const string Type = "debug";$/;"	f	class:DebugCommand
+Type	.\CustomCommands\Commands\DiscreteTriggerCommand.cs	/^    public const string Type = "discreteTrigger";$/;"	f	class:DiscreteTriggerCommand
+Unregister	.\AddPlugin\PluginReference.cs	/^    public void Unregister()$/;"	m	class:PluginReference
+Update	.\Keybindings\AnalogHandler.cs	/^    public void Update()$/;"	m	class:AnalogHandler
+Update	.\Keybindings\GlobalCommands.cs	/^    public void Update()$/;"	m	class:GlobalCommands
+Update	.\Keybindings\Keybindings.cs	/^    public void Update()$/;"	m	class:Keybindings
+Update	.\Keybindings\SelectionHistoryManager.cs	/^    public void Update()$/;"	m	class:SelectionHistoryManager
+UpdateList	.\ScenePluginTriggers\KeybindingsExtensions_ScenePluginTriggers.cs	/^    private void UpdateList()$/;"	m	class:KeybindingsExtensions_ScenePluginTriggers	file:
+UpdateValue	.\Keybindings\CommandInvokers\ICommandInvoker.cs	/^    void UpdateValue(float value);$/;"	m	interface:IAnalogCommandInvoker
+UpdateValue	.\Keybindings\CommandInvokers\JSONStorableFloatCommandInvoker.cs	/^    public void UpdateValue(float value)$/;"	m	class:JSONStorableFloatCommandInvoker
+UpdateValue	.\Keybindings\RemoteCommandsManager.cs	/^    public bool UpdateValue(string name, float value)$/;"	m	class:RemoteCommandsManager
+Validate	.\CustomCommands\Commands\DebugCommand.cs	/^    public void Validate()$/;"	m	class:DebugCommand
+Validate	.\CustomCommands\Commands\ICustomCommand.cs	/^    void Validate();$/;"	m	interface:ICustomCommand
+Validate	.\CustomCommands\Commands\TriggerCommandBase.cs	/^    public void Validate()$/;"	m	class:TriggerCommandBase
+Validate	.\CustomCommands\CustomCommands.cs	/^    public override void Validate()$/;"	m	class:CustomCommands
+Validate	.\CustomCommands\CustomCommandsRepository.cs	/^        public void Validate()$/;"	m	class:CustomActions.CustomCommandsRepository
+WaitForCloseCoroutine	.\CustomCommands\Commands\DiscreteTriggerCommand.cs	/^    private IEnumerator WaitForCloseCoroutine()$/;"	m	class:DiscreteTriggerCommand	file:
+_action	.\Keybindings\CommandInvokers\JSONStorableActionCommandInvoker.cs	/^    private readonly JSONStorableAction _action;$/;"	f	class:JSONStorableActionCommandInvoker	file:
+_action	.\Keybindings\CommandInvokers\JSONStorableBoolCommandInvoker.cs	/^    private readonly JSONStorableBool _action;$/;"	f	class:JSONStorableBoolCommandInvoker	file:
+_actionCommandsByName	.\Keybindings\RemoteCommandsManager.cs	/^    private readonly Dictionary<string, List<IActionCommandInvoker>> _actionCommandsByName = new Dictionary<string, List<IActionCommandInvoker>>();$/;"	f	class:RemoteCommandsManager	file:
+_actions	.\ScenePluginTriggers\KeybindingsExtensions_ScenePluginTriggers.cs	/^    private readonly Dictionary<string, PluginTriggerActionBinding> _actions = new Dictionary<string, PluginTriggerActionBinding>();$/;"	f	class:KeybindingsExtensions_ScenePluginTriggers	file:
+_analogCommandsByName	.\Keybindings\RemoteCommandsManager.cs	/^    private readonly Dictionary<string, List<IAnalogCommandInvoker>> _analogCommandsByName = new Dictionary<string, List<IAnalogCommandInvoker>>();$/;"	f	class:RemoteCommandsManager	file:
+_analogHandler	.\Keybindings\Keybindings.cs	/^    private AnalogHandler _analogHandler;$/;"	f	class:Keybindings	file:
+_analogMapManager	.\Keybindings\AnalogHandler.cs	/^    private readonly AnalogMapManager _analogMapManager;$/;"	f	class:AnalogHandler	file:
+_analogMapManager	.\Keybindings\Keybindings.cs	/^    private AnalogMapManager _analogMapManager;$/;"	f	class:Keybindings	file:
+_analogMapManager	.\Keybindings\KeybindingsStorage.cs	/^    private readonly IAnalogMapManager _analogMapManager;$/;"	f	class:KeybindingsStorage	file:
+_autoClearCoroutine	.\Keybindings\Overlays\KeybindingsOverlay.cs	/^    private Coroutine _autoClearCoroutine;$/;"	f	class:KeybindingsOverlay	file:
+_booleans	.\ScenePluginTriggers\KeybindingsExtensions_ScenePluginTriggers.cs	/^    private readonly Dictionary<string, PluginTriggerBoolBinding> _booleans = new Dictionary<string, PluginTriggerBoolBinding>();$/;"	f	class:KeybindingsExtensions_ScenePluginTriggers	file:
+_cameraDollyZoom	.\Keybindings\GlobalCommands.cs	/^    private JSONStorableFloat _cameraDollyZoom;$/;"	f	class:GlobalCommands	file:
+_cameraOrbitX	.\Keybindings\GlobalCommands.cs	/^    private JSONStorableFloat _cameraOrbitX;$/;"	f	class:GlobalCommands	file:
+_cameraOrbitY	.\Keybindings\GlobalCommands.cs	/^    private JSONStorableFloat _cameraOrbitY;$/;"	f	class:GlobalCommands	file:
+_cameraPanX	.\Keybindings\GlobalCommands.cs	/^    private JSONStorableFloat _cameraPanX;$/;"	f	class:GlobalCommands	file:
+_cameraPanXFast	.\Keybindings\GlobalCommands.cs	/^    private JSONStorableFloat _cameraPanXFast;$/;"	f	class:GlobalCommands	file:
+_cameraPanY	.\Keybindings\GlobalCommands.cs	/^    private JSONStorableFloat _cameraPanY;$/;"	f	class:GlobalCommands	file:
+_cameraPanYFast	.\Keybindings\GlobalCommands.cs	/^    private JSONStorableFloat _cameraPanYFast;$/;"	f	class:GlobalCommands	file:
+_cameraPanZ	.\Keybindings\GlobalCommands.cs	/^    private JSONStorableFloat _cameraPanZ;$/;"	f	class:GlobalCommands	file:
+_cameraPanZFast	.\Keybindings\GlobalCommands.cs	/^    private JSONStorableFloat _cameraPanZFast;$/;"	f	class:GlobalCommands	file:
+_canvas	.\Keybindings\Overlays\KeybindingsOverlay.cs	/^    private Canvas _canvas;$/;"	f	class:KeybindingsOverlay	file:
+_clearTime	.\Keybindings\Overlays\KeybindingsOverlay.cs	/^    private float _clearTime;$/;"	f	class:KeybindingsOverlay	file:
+_colorizedStringBuilder	.\Keybindings\FuzzyFinder.cs	/^    private readonly StringBuilder _colorizedStringBuilder = new StringBuilder();$/;"	f	class:FuzzyFinder	file:
+_commandNameJSON	.\AddPlugin\PluginReference.cs	/^    private readonly JSONStorableString _commandNameJSON = new JSONStorableString("CommandName", null);$/;"	f	class:PluginReference	file:
+_commands	.\CustomCommands\CustomCommandsRepository.cs	/^        private readonly List<ICustomCommand> _commands = new List<ICustomCommand>();$/;"	f	class:CustomActions.CustomCommandsRepository	file:
+_configPath	.\AddPlugin\KeybindingsExtensions_AddPlugin.cs	/^    private static readonly string _configPath = SuperController.singleton.savesDir + @"\\PluginData\\keybindingextensions_addplugin.config";$/;"	f	class:KeybindingsExtensions_AddPlugin	file:
+_configPath	.\ScenePluginTriggers\KeybindingsExtensions_ScenePluginTriggers.cs	/^    private static readonly string _configPath = SuperController.singleton.savesDir + @"\\PluginData\\keybindingextensions_sceneplugintriggers.config";$/;"	f	class:KeybindingsExtensions_ScenePluginTriggers	file:
+_containingAtom	.\CustomCommands\CustomCommandsRepository.cs	/^        private readonly Atom _containingAtom;$/;"	f	class:CustomActions.CustomCommandsRepository	file:
+_containingAtom	.\Keybindings\GlobalCommands.cs	/^    private readonly Atom _containingAtom;$/;"	f	class:GlobalCommands	file:
+_current	.\Keybindings\NormalModeHandler.cs	/^    private KeyMapTreeNode _current;$/;"	f	class:NormalModeHandler	file:
+_currentModeHandler	.\Keybindings\Keybindings.cs	/^    private IModeHandler _currentModeHandler;$/;"	f	class:Keybindings	file:
+_customCommands	.\CustomCommands\CustomCommands.cs	/^    private CustomCommandsRepository _customCommands;$/;"	f	class:CustomCommands	file:
+_defaultKeybindingsFile	.\Keybindings\KeybindingsStorage.cs	/^    private readonly string _defaultKeybindingsFile = SuperController.singleton.savesDir + @"\\PluginData\\Keybindings\\defaults.keybindings";$/;"	f	class:KeybindingsStorage	file:
+_enabledNames	.\ScenePluginTriggers\KeybindingsExtensions_ScenePluginTriggers.cs	/^    private readonly List<string> _enabledNames = new List<string>();$/;"	f	class:KeybindingsExtensions_ScenePluginTriggers	file:
+_enabledNamesJSON	.\ScenePluginTriggers\KeybindingsExtensions_ScenePluginTriggers.cs	/^    private readonly JSONStorableString _enabledNamesJSON = new JSONStorableString("EnabledPluginTriggersList", "");$/;"	f	class:KeybindingsExtensions_ScenePluginTriggers	file:
+_findModeHandler	.\Keybindings\Keybindings.cs	/^    private FindModeHandler _findModeHandler;$/;"	f	class:Keybindings	file:
+_fn	.\Keybindings\CommandInvokers\ActionCommandInvoker.cs	/^    private readonly Action _fn;$/;"	f	class:ActionCommandInvoker	file:
+_fuzzyFinder	.\Keybindings\FindModeHandler.cs	/^    private readonly FuzzyFinder _fuzzyFinder;$/;"	f	class:FindModeHandler	file:
+_globalCommands	.\Keybindings\Keybindings.cs	/^    private GlobalCommands _globalCommands;$/;"	f	class:Keybindings	file:
+_history	.\Keybindings\SelectionHistoryManager.cs	/^    private readonly List<Atom> _history = new List<Atom>();$/;"	f	class:SelectionHistoryManager	file:
+_ignored	.\ScenePluginTriggers\KeybindingsExtensions_ScenePluginTriggers.cs	/^    private static readonly HashSet<string> _ignored = new HashSet<string>$/;"	f	class:KeybindingsExtensions_ScenePluginTriggers	file:
+_initialized	.\Keybindings\UI\KeybindingsScreen.cs	/^    private bool _initialized;$/;"	f	class:KeybindingsScreen	file:
+_invokingJsonStorableAction	.\CustomCommands\Commands\DiscreteTriggerCommand.cs	/^    private readonly JSONStorableAction _invokingJsonStorableAction;$/;"	f	class:DiscreteTriggerCommand	file:
+_keyCodeToCharMap	.\Keybindings\KeyCodes.cs	/^    private static readonly Dictionary<KeyCode, string> _keyCodeToCharMap = new Dictionary<KeyCode, string>$/;"	f	class:KeyCodes	file:
+_keyMapManager	.\Keybindings\Keybindings.cs	/^    private KeyMapManager _keyMapManager;$/;"	f	class:Keybindings	file:
+_keyMapManager	.\Keybindings\KeybindingsStorage.cs	/^    private readonly KeyMapManager _keyMapManager;$/;"	f	class:KeybindingsStorage	file:
+_keyMapManager	.\Keybindings\NormalModeHandler.cs	/^    private readonly IKeyMapManager _keyMapManager;$/;"	f	class:NormalModeHandler	file:
+_knownAxisNames	.\Keybindings\UI\KeybindingsScreen.cs	/^    private static readonly string[] _knownAxisNames =$/;"	f	class:KeybindingsScreen	file:
+_labelJSON	.\AddPlugin\PluginReference.cs	/^    private readonly JSONStorableString _labelJSON = new JSONStorableString("Label", null);$/;"	f	class:PluginReference	file:
+_lastQuery	.\Keybindings\FuzzyFinder.cs	/^    private string _lastQuery;$/;"	f	class:FuzzyFinder	file:
+_lastSelectedAction	.\Keybindings\FindModeHandler.cs	/^    private string _lastSelectedAction;$/;"	f	class:FindModeHandler	file:
+_lastValidCheck	.\Keybindings\SelectionHistoryManager.cs	/^    private int _lastValidCheck = Time.frameCount;$/;"	f	class:SelectionHistoryManager	file:
+_latestScriptPerAtom	.\Keybindings\SelectionHistoryManager.cs	/^    private readonly Dictionary<Atom, MVRScript> _latestScriptPerAtom = new Dictionary<Atom, MVRScript>();$/;"	f	class:SelectionHistoryManager	file:
+_loaded	.\CustomCommands\CustomCommands.cs	/^    private bool _loaded;$/;"	f	class:CustomCommands	file:
+_matches	.\Keybindings\FuzzyFinder.cs	/^    private readonly List<FuzzyMatch> _matches = new List<FuzzyMatch>();$/;"	f	class:FuzzyFinder	file:
+_message	.\CustomCommands\Commands\DebugCommand.cs	/^    private string _message;$/;"	f	class:DebugCommand	file:
+_missing	.\ScenePluginTriggers\KeybindingsExtensions_ScenePluginTriggers.cs	/^    private readonly Dictionary<string, PluginTriggerMissingBinding> _missing = new Dictionary<string, PluginTriggerMissingBinding>();$/;"	f	class:KeybindingsExtensions_ScenePluginTriggers	file:
+_modeSelector	.\Keybindings\FindModeHandler.cs	/^    private readonly IKeybindingsModeSelector _modeSelector;$/;"	f	class:FindModeHandler	file:
+_moveCameraX	.\Keybindings\GlobalCommands.cs	/^    private JSONStorableFloat _moveCameraX;$/;"	f	class:GlobalCommands	file:
+_moveCameraY	.\Keybindings\GlobalCommands.cs	/^    private JSONStorableFloat _moveCameraY;$/;"	f	class:GlobalCommands	file:
+_moveCameraZ	.\Keybindings\GlobalCommands.cs	/^    private JSONStorableFloat _moveCameraZ;$/;"	f	class:GlobalCommands	file:
+_moveX	.\Keybindings\GlobalCommands.cs	/^    private JSONStorableFloat _moveX;$/;"	f	class:GlobalCommands	file:
+_moveY	.\Keybindings\GlobalCommands.cs	/^    private JSONStorableFloat _moveY;$/;"	f	class:GlobalCommands	file:
+_moveZ	.\Keybindings\GlobalCommands.cs	/^    private JSONStorableFloat _moveZ;$/;"	f	class:GlobalCommands	file:
+_normalModeHandler	.\Keybindings\Keybindings.cs	/^    private NormalModeHandler _normalModeHandler;$/;"	f	class:Keybindings	file:
+_notBoundButtonLabel	.\Keybindings\UI\KeybindingsScreen.cs	/^    private const string _notBoundButtonLabel = "";$/;"	f	class:KeybindingsScreen	file:
+_onClose	.\CustomCommands\Commands\DiscreteTriggerCommand.cs	/^    private UnityEvent _onClose;$/;"	f	class:DiscreteTriggerCommand	file:
+_overlay	.\Keybindings\FindModeHandler.cs	/^    private readonly KeybindingsOverlayReference _overlay;$/;"	f	class:FindModeHandler	file:
+_overlay	.\Keybindings\NormalModeHandler.cs	/^    private readonly KeybindingsOverlayReference _overlay;$/;"	f	class:NormalModeHandler	file:
+_overlayReference	.\Keybindings\Keybindings.cs	/^    private KeybindingsOverlayReference _overlayReference;$/;"	f	class:Keybindings	file:
+_overrideInternalKeybindings	.\Keybindings\Keybindings.cs	/^    private bool _overrideInternalKeybindings;$/;"	f	class:Keybindings	file:
+_owner	.\Keybindings\GlobalCommands.cs	/^    private readonly JSONStorable _owner;$/;"	f	class:GlobalCommands	file:
+_owner	.\Keybindings\NormalModeHandler.cs	/^    private readonly MonoBehaviour _owner;$/;"	f	class:NormalModeHandler	file:
+_owner	.\Keybindings\RemoteCommandsManager.cs	/^    private readonly MonoBehaviour _owner;$/;"	f	class:RemoteCommandsManager	file:
+_parameterizedTriggers	.\CustomCommands\CustomCommands.cs	/^    private ParameterizedTriggers _parameterizedTriggers;$/;"	f	class:CustomCommands	file:
+_pathPattern	.\AddPlugin\PluginReference.cs	/^    private static readonly Regex _pathPattern = new Regex(@"([^\/]+).(cs|cslist|dll)$", RegexOptions.Compiled);$/;"	f	class:PluginReference	file:
+_pauseListChangedEvent	.\AddPlugin\KeybindingsExtensions_AddPlugin.cs	/^    private bool _pauseListChangedEvent;$/;"	f	class:KeybindingsExtensions_AddPlugin	file:
+_plugin	.\AddPlugin\PluginReference.cs	/^    private readonly MVRScript _plugin;$/;"	f	class:PluginReference	file:
+_plugin	.\Keybindings\KeybindingsStorage.cs	/^    private readonly MVRScript _plugin;$/;"	f	class:KeybindingsStorage	file:
+_pluginJSON	.\AddPlugin\PluginReference.cs	/^    private readonly JSONStorableUrl _pluginJSON = new JSONStorableUrl("PluginUrl", null, "cs|cslist|dll", "Custom\/Scripts");$/;"	f	class:PluginReference	file:
+_pluginNameRegex	.\Keybindings\RemoteCommandsManager.cs	/^    private static readonly Regex _pluginNameRegex = new Regex("^plugin#[0-9]+_(.+)$", RegexOptions.Compiled);$/;"	f	class:RemoteCommandsManager	file:
+_plugins	.\AddPlugin\KeybindingsExtensions_AddPlugin.cs	/^    private readonly List<PluginReference> _plugins = new List<PluginReference>();$/;"	f	class:KeybindingsExtensions_AddPlugin	file:
+_prefabManager	.\CustomCommands\Commands\TriggerCommandBase.cs	/^    private readonly IPrefabManager _prefabManager;$/;"	f	class:TriggerCommandBase	file:
+_prefabManager	.\CustomCommands\CustomCommands.cs	/^    private PrefabManager _prefabManager;$/;"	f	class:CustomCommands	file:
+_prefabManager	.\CustomCommands\CustomCommandsRepository.cs	/^        private readonly IPrefabManager _prefabManager;$/;"	f	class:CustomActions.CustomCommandsRepository	file:
+_prefabManager	.\Keybindings\Keybindings.cs	/^    private PrefabManager _prefabManager;$/;"	f	class:Keybindings	file:
+_refreshBinding	.\ScenePluginTriggers\KeybindingsExtensions_ScenePluginTriggers.cs	/^    private readonly JSONStorableAction _refreshBinding;$/;"	f	class:KeybindingsExtensions_ScenePluginTriggers	file:
+_releasers	.\Keybindings\NormalModeHandler.cs	/^    private readonly List<KeyValuePair<KeyMap, ICommandReleaser>> _releasers = new List<KeyValuePair<KeyMap, ICommandReleaser>>();$/;"	f	class:NormalModeHandler	file:
+_remoteCommandsManager	.\Keybindings\AnalogHandler.cs	/^    private readonly RemoteCommandsManager _remoteCommandsManager;$/;"	f	class:AnalogHandler	file:
+_remoteCommandsManager	.\Keybindings\FindModeHandler.cs	/^    private readonly RemoteCommandsManager _remoteCommandsManager;$/;"	f	class:FindModeHandler	file:
+_remoteCommandsManager	.\Keybindings\GlobalCommands.cs	/^    private readonly RemoteCommandsManager _remoteCommandsManager;$/;"	f	class:GlobalCommands	file:
+_remoteCommandsManager	.\Keybindings\Keybindings.cs	/^    private RemoteCommandsManager _remoteCommandsManager;$/;"	f	class:Keybindings	file:
+_remoteCommandsManager	.\Keybindings\NormalModeHandler.cs	/^    private readonly RemoteCommandsManager _remoteCommandsManager;$/;"	f	class:NormalModeHandler	file:
+_removeButton	.\AddPlugin\PluginReference.cs	/^    private readonly UIDynamicButton _removeButton;$/;"	f	class:PluginReference	file:
+_rotateCameraX	.\Keybindings\GlobalCommands.cs	/^    private JSONStorableFloat _rotateCameraX;$/;"	f	class:GlobalCommands	file:
+_rotateCameraY	.\Keybindings\GlobalCommands.cs	/^    private JSONStorableFloat _rotateCameraY;$/;"	f	class:GlobalCommands	file:
+_rotateCameraZ	.\Keybindings\GlobalCommands.cs	/^    private JSONStorableFloat _rotateCameraZ;$/;"	f	class:GlobalCommands	file:
+_rotateX	.\Keybindings\GlobalCommands.cs	/^    private JSONStorableFloat _rotateX;$/;"	f	class:GlobalCommands	file:
+_rotateY	.\Keybindings\GlobalCommands.cs	/^    private JSONStorableFloat _rotateY;$/;"	f	class:GlobalCommands	file:
+_rotateZ	.\Keybindings\GlobalCommands.cs	/^    private JSONStorableFloat _rotateZ;$/;"	f	class:GlobalCommands	file:
+_rowGroups	.\Keybindings\UI\KeybindingsScreen.cs	/^    private readonly List<List<CommandBindingRow>> _rowGroups = new List<List<CommandBindingRow>>();$/;"	f	class:KeybindingsScreen	file:
+_rows	.\CustomCommands\UI\CustomCommandsScreen.cs	/^    private readonly List<Row> _rows = new List<Row>();$/;"	f	class:CustomCommandsScreen	file:
+_sanitizePattern	.\AddPlugin\PluginReference.cs	/^    private static readonly Regex _sanitizePattern = new Regex(@"[^a-zA-Z_-]+", RegexOptions.Compiled);$/;"	f	class:PluginReference	file:
+_saveExt	.\Keybindings\KeybindingsStorage.cs	/^    private const string _saveExt = "keybindings";$/;"	f	class:KeybindingsStorage	file:
+_saveFolder	.\Keybindings\KeybindingsStorage.cs	/^    private const string _saveFolder = "Saves\\\\PluginData\\\\Keybindings";$/;"	f	class:KeybindingsStorage	file:
+_saveVersion	.\Keybindings\KeybindingsStorage.cs	/^    private const int _saveVersion = 2;$/;"	f	class:KeybindingsStorage	file:
+_sb	.\Keybindings\KeyChord.cs	/^    private static readonly StringBuilder _sb = new StringBuilder();$/;"	f	struct:KeyChord	file:
+_sb	.\Keybindings\KeyChordExtensions.cs	/^    private static readonly StringBuilder _sb = new StringBuilder();$/;"	f	class:KeyChordExtensions	file:
+_script	.\CustomCommands\ParameterizedTriggers.cs	/^    private readonly MVRScript _script;$/;"	f	class:ParameterizedTriggers	file:
+_searchInput	.\Keybindings\UI\KeybindingsScreen.cs	/^    private InputField _searchInput;$/;"	f	class:KeybindingsScreen	file:
+_selectButton	.\AddPlugin\PluginReference.cs	/^    private readonly UIDynamicButton _selectButton;$/;"	f	class:PluginReference	file:
+_selectByNameCommandNamespace	.\Keybindings\FindModeHandler.cs	/^    private const string _selectByNameCommandNamespace = "Select:";$/;"	f	class:FindModeHandler	file:
+_selectionHistoryManager	.\Keybindings\GlobalCommands.cs	/^    private readonly ISelectionHistoryManager _selectionHistoryManager;$/;"	f	class:GlobalCommands	file:
+_selectionHistoryManager	.\Keybindings\Keybindings.cs	/^    private SelectionHistoryManager _selectionHistoryManager;$/;"	f	class:Keybindings	file:
+_selectionHistoryManager	.\Keybindings\RemoteCommandsManager.cs	/^    private readonly SelectionHistoryManager _selectionHistoryManager;$/;"	f	class:RemoteCommandsManager	file:
+_setKeybindingCoroutine	.\Keybindings\UI\KeybindingsScreen.cs	/^    private Coroutine _setKeybindingCoroutine;$/;"	f	class:KeybindingsScreen	file:
+_settings	.\Keybindings\AnalogHandler.cs	/^    private readonly IKeybindingsSettings _settings;$/;"	f	class:AnalogHandler	file:
+_settings	.\Keybindings\Keybindings.cs	/^    private KeybindingsSettings _settings;$/;"	f	class:Keybindings	file:
+_settings	.\Keybindings\KeybindingsStorage.cs	/^    private readonly IKeybindingsSettings _settings;$/;"	f	class:KeybindingsStorage	file:
+_settings	.\Keybindings\NormalModeHandler.cs	/^    private readonly IKeybindingsSettings _settings;$/;"	f	class:NormalModeHandler	file:
+_settingsBinding	.\ScenePluginTriggers\KeybindingsExtensions_ScenePluginTriggers.cs	/^    private readonly JSONStorableAction _settingsBinding;$/;"	f	class:KeybindingsExtensions_ScenePluginTriggers	file:
+_showBoundOnly	.\Keybindings\UI\KeybindingsScreen.cs	/^    private UIDynamicToggle _showBoundOnly;$/;"	f	class:KeybindingsScreen	file:
+_spacers	.\ScenePluginTriggers\KeybindingsExtensions_ScenePluginTriggers.cs	/^    private readonly List<UIDynamic> _spacers = new List<UIDynamic>();$/;"	f	class:KeybindingsExtensions_ScenePluginTriggers	file:
+_specialKeyCodes	.\Keybindings\KeyCodes.cs	/^    private static readonly KeyCode[] _specialKeyCodes = {$/;"	f	class:KeyCodes	file:
+_storableFloat	.\Keybindings\CommandInvokers\JSONStorableFloatCommandInvoker.cs	/^    private readonly JSONStorableFloat _storableFloat;$/;"	f	class:JSONStorableFloatCommandInvoker	file:
+_storage	.\Keybindings\Keybindings.cs	/^    private KeybindingsStorage _storage;$/;"	f	class:Keybindings	file:
+_targets	.\ScenePluginTriggers\PluginTriggerBinding.cs	/^    private readonly List<JSONStorableAction> _targets = new List<JSONStorableAction>();$/;"	f	class:PluginTriggerActionBinding	file:
+_targets	.\ScenePluginTriggers\PluginTriggerBinding.cs	/^    private readonly List<JSONStorableBool> _targets = new List<JSONStorableBool>();$/;"	f	class:PluginTriggerBoolBinding	file:
+_timeoutCoroutine	.\Keybindings\NormalModeHandler.cs	/^    private Coroutine _timeoutCoroutine;$/;"	f	class:NormalModeHandler	file:
+_triggerActionDiscrete	.\CustomCommands\Commands\DiscreteTriggerCommand.cs	/^    private readonly TriggerActionDiscrete _triggerActionDiscrete;$/;"	f	class:DiscreteTriggerCommand	file:
+_ui	.\CustomCommands\CustomCommands.cs	/^    private CustomCommandsScreen _ui;$/;"	f	class:CustomCommands	file:
+_ui	.\Keybindings\Keybindings.cs	/^    private KeybindingsScreen _ui;$/;"	f	class:Keybindings	file:
+_valid	.\Keybindings\Keybindings.cs	/^    private bool _valid;$/;"	f	class:Keybindings	file:
+_valuesReference	.\Keybindings\FuzzyFinder.cs	/^    private List<string> _valuesReference;$/;"	f	class:FuzzyFinder	file:
+_varPattern	.\AddPlugin\PluginReference.cs	/^    private static readonly Regex _varPattern = new Regex(@"^(.+?)\\.(.+?)\\.([0-9]+):", RegexOptions.Compiled);$/;"	f	class:PluginReference	file:
+_waitForCloseCo	.\CustomCommands\Commands\DiscreteTriggerCommand.cs	/^    private Coroutine _waitForCloseCo;$/;"	f	class:DiscreteTriggerCommand	file:
+action	.\CustomCommands\UI\CustomCommandsScreen.cs	/^        public ICustomCommand action;$/;"	f	class:CustomCommandsScreen.Row
+action	.\ScenePluginTriggers\PluginTriggerBinding.cs	/^    public abstract JSONStorableAction action { get; }$/;"	p	class:PluginTriggerBinding
+action	.\ScenePluginTriggers\PluginTriggerBinding.cs	/^    public override JSONStorableAction action { get; }$/;"	p	class:PluginTriggerActionBinding
+action	.\ScenePluginTriggers\PluginTriggerBinding.cs	/^    public override JSONStorableAction action { get; }$/;"	p	class:PluginTriggerBoolBinding
+action	.\ScenePluginTriggers\PluginTriggerBinding.cs	/^    public override JSONStorableAction action { get; }$/;"	p	class:PluginTriggerMissingBinding
+actionCommands	.\Keybindings\RemoteCommandsManager.cs	/^    public IEnumerable<IActionCommandInvoker> actionCommands => _actionCommandsByName.Select(kvp => kvp.Value[0]);$/;"	f	class:RemoteCommandsManager
+alt	.\Keybindings\KeyChord.cs	/^    public readonly bool alt;$/;"	f	struct:KeyChord
+analogCommands	.\Keybindings\RemoteCommandsManager.cs	/^    public IEnumerable<IAnalogCommandInvoker> analogCommands => _analogCommandsByName.Select(kvp => kvp.Value[0]);$/;"	f	class:RemoteCommandsManager
+analogMapManager	.\Keybindings\UI\KeybindingsScreen.cs	/^    public IAnalogMapManager analogMapManager { get; set; }$/;"	p	class:KeybindingsScreen
+autoClear	.\Keybindings\Overlays\KeybindingsOverlay.cs	/^    public float autoClear { get; set; }$/;"	p	class:KeybindingsOverlay
+axisName	.\Keybindings\AnalogMap.cs	/^    public string axisName { get; private set; }$/;"	p	class:AnalogMap
+bindable	.\CustomCommands\Commands\DebugCommand.cs	/^    public object bindable => null;$/;"	f	class:DebugCommand
+bindable	.\CustomCommands\Commands\DiscreteTriggerCommand.cs	/^    public object bindable => !string.IsNullOrEmpty(_invokingJsonStorableAction.name) ? _invokingJsonStorableAction : null;$/;"	f	class:DiscreteTriggerCommand
+bindable	.\CustomCommands\Commands\ICustomCommand.cs	/^    object bindable { get; }$/;"	p	interface:ICustomCommand
+bindableKeyCodes	.\Keybindings\KeyCodes.cs	/^    public static readonly KeyCode[] bindableKeyCodes = ((KeyCode[]) Enum.GetValues(typeof(KeyCode)))$/;"	f	class:KeyCodes
+bindingBtn1	.\Keybindings\UI\KeybindingsScreen.cs	/^        public UIDynamicButton bindingBtn1;$/;"	f	class:KeybindingsScreen.CommandBindingRow
+bindingBtn2	.\Keybindings\UI\KeybindingsScreen.cs	/^        public UIDynamicButton bindingBtn2;$/;"	f	class:KeybindingsScreen.CommandBindingRow
+buttonPrefab	.\Shared\PrefabManager.cs	/^    public RectTransform buttonPrefab { get; private set; }$/;"	p	class:PrefabManager
+chord	.\Keybindings\AnalogMap.cs	/^    public KeyChord chord { get; private set; }$/;"	p	class:AnalogMap
+chords	.\Keybindings\KeyMap.cs	/^    public KeyChord[] chords { get; set; }$/;"	p	class:KeyMap
+commandName	.\AddPlugin\PluginReference.cs	/^    public string commandName => _commandNameJSON.val;$/;"	f	class:PluginReference
+commandName	.\Keybindings\AnalogMap.cs	/^    public string commandName { get; private set; }$/;"	p	class:AnalogMap
+commandName	.\Keybindings\CommandInvokers\CommandInvokerBase.cs	/^    public string commandName { get; }$/;"	p	class:CommandInvokerBase
+commandName	.\Keybindings\CommandInvokers\DisabledCommandInvoker.cs	/^    public string commandName { get; }$/;"	p	class:DisabledCommandInvoker
+commandName	.\Keybindings\CommandInvokers\ICommandInvoker.cs	/^    string commandName { get; }$/;"	p	interface:ICommandInvoker
+commandName	.\Keybindings\IMap.cs	/^    string commandName { get; }$/;"	p	interface:IMap
+commandName	.\Keybindings\KeyMap.cs	/^    public string commandName { get; set; }$/;"	p	class:KeyMap
+commandName	.\Keybindings\UI\KeybindingsScreen.cs	/^        public string commandName => invoker?.commandName ?? null;$/;"	f	class:KeybindingsScreen.CommandBindingRow
+container	.\CustomCommands\UI\CustomCommandsScreen.cs	/^        public GameObject container;$/;"	f	class:CustomCommandsScreen.Row
+container	.\Keybindings\UI\KeybindingsScreen.cs	/^        public GameObject container;$/;"	f	class:KeybindingsScreen.CommandBindingRow
+count	.\CustomCommands\CustomCommandsRepository.cs	/^        public int count => _commands.Count;$/;"	f	class:CustomActions.CustomCommandsRepository
+ctrl	.\Keybindings\KeyChord.cs	/^    public readonly bool ctrl;$/;"	f	struct:KeyChord
+current	.\Keybindings\FuzzyFinder.cs	/^    public string current => _matches.Count > 0 ? _matches[tabIndex].value : null;$/;"	f	class:FuzzyFinder
+customCommands	.\CustomCommands\UI\CustomCommandsScreen.cs	/^    public ICustomCommandsRepository customCommands { get; set; }$/;"	p	class:CustomCommandsScreen
+displayName	.\CustomCommands\Commands\DebugCommand.cs	/^    public string displayName => $"<b>DEBUG<\/b> <i>{name}<\/i> '{_message}'";$/;"	f	class:DebugCommand
+displayName	.\CustomCommands\Commands\DiscreteTriggerCommand.cs	/^    public string displayName$/;"	p	class:DiscreteTriggerCommand
+displayName	.\CustomCommands\Commands\ICustomCommand.cs	/^    string displayName { get; }$/;"	p	interface:ICustomCommand
+empty	.\Keybindings\KeyChord.cs	/^    public static readonly KeyChord empty = new KeyChord(KeyCode.None, false, false, false);$/;"	f	struct:KeyChord
+enabledJSON	.\ScenePluginTriggers\PluginTriggerBinding.cs	/^    public JSONStorableBool enabledJSON { get; set; }$/;"	p	class:PluginTriggerBinding
+font	.\Shared\PrefabManager.cs	/^    Font font { get; }$/;"	p	interface:IPrefabManager
+font	.\Shared\PrefabManager.cs	/^    public Font font { get; private set; }$/;"	p	class:PrefabManager
+hasValue	.\AddPlugin\PluginReference.cs	/^    public bool hasValue => !string.IsNullOrEmpty(_pluginJSON.val);$/;"	f	class:PluginReference
+history	.\Keybindings\SelectionHistoryManager.cs	/^    IList<Atom> history { get; }$/;"	p	interface:ISelectionHistoryManager
+history	.\Keybindings\SelectionHistoryManager.cs	/^    public IList<Atom> history$/;"	p	class:SelectionHistoryManager
+input	.\Keybindings\Overlays\KeybindingsOverlay.cs	/^    public InputField input;$/;"	f	class:KeybindingsOverlay
+invoker	.\Keybindings\UI\KeybindingsScreen.cs	/^        public ICommandInvoker invoker;$/;"	f	class:KeybindingsScreen.CommandBindingRow
+isActive	.\Keybindings\AnalogMap.cs	/^    public bool isActive { get; set; }$/;"	p	class:AnalogMap
+isAxis	.\Keybindings\AnalogMap.cs	/^    public bool isAxis { get; private set; }$/;"	p	class:AnalogMap
+isMouse	.\Keybindings\AnalogMap.cs	/^    public bool isMouse { get; private set; }$/;"	p	class:AnalogMap
+isRecording	.\Keybindings\UI\KeybindingsScreen.cs	/^    public bool isRecording;$/;"	f	class:KeybindingsScreen
+key	.\Keybindings\KeyChord.cs	/^    public readonly KeyCode key;$/;"	f	struct:KeyChord
+keyChord	.\Keybindings\KeyMapTreeNode.cs	/^    public KeyChord keyChord;$/;"	f	class:KeyMapTreeNode
+keyMapManager	.\Keybindings\UI\KeybindingsScreen.cs	/^    public IKeyMapManager keyMapManager { get; set; }$/;"	p	class:KeybindingsScreen
+leftChord	.\Keybindings\AnalogMap.cs	/^    public KeyChord leftChord { get; private set; }$/;"	p	class:AnalogMap
+localName	.\Keybindings\CommandInvokers\CommandInvokerBase.cs	/^    public string localName { get; }$/;"	p	class:CommandInvokerBase
+localName	.\Keybindings\CommandInvokers\DisabledCommandInvoker.cs	/^    public string localName { get; }$/;"	p	class:DisabledCommandInvoker
+localName	.\Keybindings\CommandInvokers\ICommandInvoker.cs	/^    string localName { get; }$/;"	p	interface:ICommandInvoker
+map	.\Keybindings\KeyMapTreeNode.cs	/^    public KeyMap map;$/;"	f	class:KeyMapTreeNode
+maps	.\Keybindings\AnalogMapManager.cs	/^    List<AnalogMap> maps { get; }$/;"	p	interface:IAnalogMapManager
+maps	.\Keybindings\AnalogMapManager.cs	/^    public List<AnalogMap> maps { get; } = new List<AnalogMap>();$/;"	p	class:AnalogMapManager
+maps	.\Keybindings\KeyMapManager.cs	/^    List<KeyMap> maps { get; }$/;"	p	interface:IKeyMapManager
+maps	.\Keybindings\KeyMapManager.cs	/^    public List<KeyMap> maps { get; } = new List<KeyMap>();$/;"	p	class:KeyMapManager
+matches	.\Keybindings\FuzzyFinder.cs	/^    public int matches => _matches.Count;$/;"	f	class:FuzzyFinder
+mouseSensitivityJSON	.\Keybindings\KeybindingsSettings.cs	/^    JSONStorableFloat mouseSensitivityJSON { get; }$/;"	p	interface:IKeybindingsSettings
+mouseSensitivityJSON	.\Keybindings\KeybindingsSettings.cs	/^    public JSONStorableFloat mouseSensitivityJSON { get; } = new JSONStorableFloat("MouseSensitivity", 0.7f, 0f, 1f);$/;"	p	class:KeybindingsSettings
+name	.\CustomCommands\Commands\DebugCommand.cs	/^    public string name { get; private set; }$/;"	p	class:DebugCommand
+name	.\CustomCommands\Commands\DiscreteTriggerCommand.cs	/^    public override string name => _triggerActionDiscrete.name;$/;"	f	class:DiscreteTriggerCommand
+name	.\CustomCommands\Commands\ICustomCommand.cs	/^    string name { get; }$/;"	p	interface:ICustomCommand
+name	.\CustomCommands\Commands\TriggerCommandBase.cs	/^    public virtual string name => trigger.displayName;$/;"	f	class:TriggerCommandBase
+names	.\Keybindings\RemoteCommandsManager.cs	/^    public List<string> names { get; } = new List<string>();$/;"	p	class:RemoteCommandsManager
+next	.\Keybindings\KeyMapTreeNode.cs	/^    public readonly List<KeyMapTreeNode> next = new List<KeyMapTreeNode>();$/;"	f	class:KeyMapTreeNode
+ns	.\Keybindings\CommandInvokers\CommandInvokerBase.cs	/^    public string ns { get; }$/;"	p	class:CommandInvokerBase
+ns	.\Keybindings\CommandInvokers\DisabledCommandInvoker.cs	/^    public string ns { get; }$/;"	p	class:DisabledCommandInvoker
+ns	.\Keybindings\CommandInvokers\ICommandInvoker.cs	/^    string ns { get; }$/;"	p	interface:ICommandInvoker
+onChange	.\AddPlugin\PluginReference.cs	/^    public readonly UnityEvent onChange = new UnityEvent();$/;"	f	class:PluginReference
+onChange	.\CustomCommands\CustomCommandsRepository.cs	/^        UnityEvent onChange { get; }$/;"	p	interface:CustomActions.ICustomCommandsRepository
+onChange	.\CustomCommands\CustomCommandsRepository.cs	/^        public UnityEvent onChange { get; } = new UnityEvent();$/;"	p	class:CustomActions.CustomCommandsRepository
+onChanged	.\Keybindings\AnalogMapManager.cs	/^    UnityEvent onChanged { get; }$/;"	p	interface:IAnalogMapManager
+onChanged	.\Keybindings\AnalogMapManager.cs	/^    public UnityEvent onChanged { get; } = new UnityEvent();$/;"	p	class:AnalogMapManager
+onChanged	.\Keybindings\KeyMapManager.cs	/^    UnityEvent onChanged { get; }$/;"	p	interface:IKeyMapManager
+onChanged	.\Keybindings\KeyMapManager.cs	/^    public UnityEvent onChanged { get; } = new UnityEvent();$/;"	p	class:KeyMapManager
+onRemove	.\AddPlugin\PluginReference.cs	/^    public readonly UnityEvent onRemove = new UnityEvent();$/;"	f	class:PluginReference
+onSelected	.\Keybindings\PluginUISpy.cs	/^    public UnityEvent onSelected = new UnityEvent();$/;"	f	class:PluginUISpy
+prefabManager	.\CustomCommands\UI\CustomCommandsScreen.cs	/^    public IPrefabManager prefabManager { get; set; }$/;"	p	class:CustomCommandsScreen
+prefabManager	.\Keybindings\UI\KeybindingsScreen.cs	/^    public IPrefabManager prefabManager { get; set; }$/;"	p	class:KeybindingsScreen
+prettyString	.\Keybindings\CommandInvokers\DisabledCommandInvoker.cs	/^    public string prettyString { get; }$/;"	p	class:DisabledCommandInvoker
+ready	.\Shared\PrefabManager.cs	/^    bool ready { get; }$/;"	p	interface:IPrefabManager
+ready	.\Shared\PrefabManager.cs	/^    public bool ready => buttonPrefab != null && togglePrefab != null;$/;"	f	class:PrefabManager
+remoteCommandsManager	.\Keybindings\UI\KeybindingsScreen.cs	/^    public RemoteCommandsManager remoteCommandsManager { get; set; }$/;"	p	class:KeybindingsScreen
+reversed	.\Keybindings\AnalogMap.cs	/^    public bool reversed { get; private set; }$/;"	p	class:AnalogMap
+rightChord	.\Keybindings\AnalogMap.cs	/^    public KeyChord rightChord { get; private set; }$/;"	p	class:AnalogMap
+root	.\Keybindings\KeyMapManager.cs	/^    KeyMapTreeNode root { get; }$/;"	p	interface:IKeyMapManager
+root	.\Keybindings\KeyMapManager.cs	/^    public KeyMapTreeNode root { get; } = new KeyMapTreeNode();$/;"	p	class:KeyMapManager
+score	.\Keybindings\FuzzyFinder.cs	/^        public int score;$/;"	f	struct:FuzzyFinder.FuzzyMatch
+settings	.\Keybindings\UI\KeybindingsScreen.cs	/^    public IKeybindingsSettings settings { get; set; }$/;"	p	class:KeybindingsScreen
+shift	.\Keybindings\KeyChord.cs	/^    public readonly bool shift;$/;"	f	struct:KeyChord
+showKeyPressesJSON	.\Keybindings\KeybindingsSettings.cs	/^    JSONStorableBool showKeyPressesJSON { get; }$/;"	p	interface:IKeybindingsSettings
+showKeyPressesJSON	.\Keybindings\KeybindingsSettings.cs	/^    public JSONStorableBool showKeyPressesJSON { get; } = new JSONStorableBool("ShowKeypresses", false);$/;"	p	class:KeybindingsSettings
+sliderPrefab	.\Shared\PrefabManager.cs	/^    public RectTransform sliderPrefab { get; private set; }$/;"	p	class:PrefabManager
+slot	.\Keybindings\AnalogMap.cs	/^    public int slot { get; private set; }$/;"	p	class:AnalogMap
+slot	.\Keybindings\CommandInvokers\DisabledCommandInvoker.cs	/^    public int slot { get; set; }$/;"	p	class:DisabledCommandInvoker
+slot	.\Keybindings\IMap.cs	/^    int slot { get; }$/;"	p	interface:IMap
+slot	.\Keybindings\KeyMap.cs	/^    public int slot { get; set; }$/;"	p	class:KeyMap
+storable	.\Keybindings\CommandInvokers\CommandInvokerBase.cs	/^    public JSONStorable storable { get; }$/;"	p	class:CommandInvokerBase
+storable	.\Keybindings\CommandInvokers\DisabledCommandInvoker.cs	/^    public JSONStorable storable => null;$/;"	f	class:DisabledCommandInvoker
+storable	.\Keybindings\CommandInvokers\ICommandInvoker.cs	/^    JSONStorable storable { get; }$/;"	p	interface:ICommandInvoker
+storage	.\Keybindings\UI\KeybindingsScreen.cs	/^    public KeybindingsStorage storage { get; set; }$/;"	p	class:KeybindingsScreen
+tabIndex	.\Keybindings\FuzzyFinder.cs	/^    public int tabIndex { get; set; }$/;"	p	class:FuzzyFinder
+text	.\Keybindings\Overlays\KeybindingsOverlay.cs	/^    public Text text;$/;"	f	class:KeybindingsOverlay
+togglePrefab	.\Shared\PrefabManager.cs	/^    public RectTransform togglePrefab { get; private set; }$/;"	p	class:PrefabManager
+trigger	.\CustomCommands\Commands\TriggerCommandBase.cs	/^    protected readonly Trigger trigger;$/;"	f	class:TriggerCommandBase
+triggerActionDiscretePrefab	.\Shared\PrefabManager.cs	/^    RectTransform triggerActionDiscretePrefab { get; }$/;"	p	interface:IPrefabManager
+triggerActionDiscretePrefab	.\Shared\PrefabManager.cs	/^    public RectTransform triggerActionDiscretePrefab { get; private set; }$/;"	p	class:PrefabManager
+triggerActionMiniPrefab	.\Shared\PrefabManager.cs	/^    RectTransform triggerActionMiniPrefab { get; }$/;"	p	interface:IPrefabManager
+triggerActionMiniPrefab	.\Shared\PrefabManager.cs	/^    public RectTransform triggerActionMiniPrefab { get; private set; }$/;"	p	class:PrefabManager
+triggerActionTransitionPrefab	.\Shared\PrefabManager.cs	/^    RectTransform triggerActionTransitionPrefab { get; }$/;"	p	interface:IPrefabManager
+triggerActionTransitionPrefab	.\Shared\PrefabManager.cs	/^    public RectTransform triggerActionTransitionPrefab { get; private set; }$/;"	p	class:PrefabManager
+triggerActionsParent	.\Shared\PrefabManager.cs	/^    Transform triggerActionsParent { get; }$/;"	p	interface:IPrefabManager
+triggerActionsParent	.\Shared\PrefabManager.cs	/^    public Transform triggerActionsParent { get; set; }$/;"	p	class:PrefabManager
+triggerActionsPrefab	.\Shared\PrefabManager.cs	/^    RectTransform triggerActionsPrefab { get; }$/;"	p	interface:IPrefabManager
+triggerActionsPrefab	.\Shared\PrefabManager.cs	/^    public RectTransform triggerActionsPrefab { get; private set; }$/;"	p	class:PrefabManager
+type	.\CustomCommands\Commands\DebugCommand.cs	/^    public string type => Type;$/;"	f	class:DebugCommand
+type	.\CustomCommands\Commands\DiscreteTriggerCommand.cs	/^    public string type => Type;$/;"	f	class:DiscreteTriggerCommand
+type	.\CustomCommands\Commands\ICustomCommand.cs	/^    string type { get; }$/;"	p	interface:ICustomCommand
+value	.\Keybindings\FuzzyFinder.cs	/^        public string value;$/;"	f	struct:FuzzyFinder.FuzzyMatch
+value	.\Keybindings\Overlays\KeybindingsOverlay.cs	/^    public KeybindingsOverlay value { get; set; }$/;"	p	class:KeybindingsOverlayReference
